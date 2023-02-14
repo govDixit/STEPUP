@@ -1,0 +1,1044 @@
+INFO:engineio.server:Server initialized for threading.
+WARNING:werkzeug:WebSocket transport not available. Install eventlet or gevent and gevent-websocket for improved performance.
+INFO:engineio.server:Server initialized for threading.
+WARNING:werkzeug:WebSocket transport not available. Install eventlet or gevent and gevent-websocket for improved performance.
+INFO:werkzeug: * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+INFO:engineio.server:726ad7d506fe4243bd373b194e1f26d2: Sending packet OPEN data {'sid': '726ad7d506fe4243bd373b194e1f26d2', 'upgrades': [], 'pingTimeout': 120000000, 'pingInterval': 2000000}
+INFO:engineio.server:726ad7d506fe4243bd373b194e1f26d2: Sending packet MESSAGE data 0
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:21:25] "[37mGET /socket.io/?EIO=3&transport=polling&t=1574578281622-4 HTTP/1.1[0m" 200 -
+INFO:engineio.server:726ad7d506fe4243bd373b194e1f26d2: Received packet MESSAGE data 0/chat
+INFO:engineio.server:726ad7d506fe4243bd373b194e1f26d2: Sending packet MESSAGE data 0/chat
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:21:25] "[37mPOST /socket.io/?EIO=3&transport=polling&t=1574578285171-5&sid=726ad7d506fe4243bd373b194e1f26d2 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:21:25] "[37mGET /socket.io/?EIO=3&transport=polling&t=1574578285173-6&sid=726ad7d506fe4243bd373b194e1f26d2 HTTP/1.1[0m" 200 -
+INFO:engineio.server:Server initialized for threading.
+WARNING:werkzeug:WebSocket transport not available. Install eventlet or gevent and gevent-websocket for improved performance.
+INFO:werkzeug: * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+INFO:engineio.server:e06ece8c3af04768b9dbbf4e546e49ec: Sending packet OPEN data {'sid': 'e06ece8c3af04768b9dbbf4e546e49ec', 'upgrades': [], 'pingTimeout': 120000000, 'pingInterval': 2000000}
+INFO:engineio.server:e06ece8c3af04768b9dbbf4e546e49ec: Sending packet MESSAGE data 0
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:22:18] "[37mGET /socket.io/?EIO=3&transport=polling&t=1574578338592-11 HTTP/1.1[0m" 200 -
+INFO:engineio.server:e06ece8c3af04768b9dbbf4e546e49ec: Received packet MESSAGE data 0/chat
+INFO:socketio.server:e06ece8c3af04768b9dbbf4e546e49ec is entering room 71e63c6a-bc4f-491c-a037-3c6610764228 [/chat]
+INFO:engineio.server:e06ece8c3af04768b9dbbf4e546e49ec: Sending packet MESSAGE data 0/chat
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:22:19] "[37mGET /socket.io/?EIO=3&transport=polling&t=1574578338701-13&sid=e06ece8c3af04768b9dbbf4e546e49ec HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:22:19] "[37mPOST /socket.io/?EIO=3&transport=polling&t=1574578338700-12&sid=e06ece8c3af04768b9dbbf4e546e49ec HTTP/1.1[0m" 200 -
+INFO:engineio.server:3f4540c3cffb475291d470a363a76373: Sending packet OPEN data {'sid': '3f4540c3cffb475291d470a363a76373', 'upgrades': [], 'pingTimeout': 120000000, 'pingInterval': 2000000}
+INFO:engineio.server:3f4540c3cffb475291d470a363a76373: Sending packet MESSAGE data 0
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:22:25] "[37mGET /socket.io/?EIO=3&transport=polling&t=1574578345044-0 HTTP/1.1[0m" 200 -
+INFO:engineio.server:3f4540c3cffb475291d470a363a76373: Received packet MESSAGE data 0/chat
+INFO:socketio.server:3f4540c3cffb475291d470a363a76373 is entering room 3768a444-fce4-4a4a-956d-7841ec050818 [/chat]
+INFO:engineio.server:3f4540c3cffb475291d470a363a76373: Sending packet MESSAGE data 0/chat
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:22:26] "[37mGET /socket.io/?EIO=3&transport=polling&t=1574578345083-2&sid=3f4540c3cffb475291d470a363a76373 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:22:26] "[37mPOST /socket.io/?EIO=3&transport=polling&t=1574578345077-1&sid=3f4540c3cffb475291d470a363a76373 HTTP/1.1[0m" 200 -
+INFO:engineio.server:Server initialized for threading.
+WARNING:werkzeug:WebSocket transport not available. Install eventlet or gevent and gevent-websocket for improved performance.
+INFO:werkzeug: * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+INFO:engineio.server:56db3cc5e67d4674a6b5673c236831ea: Sending packet OPEN data {'sid': '56db3cc5e67d4674a6b5673c236831ea', 'upgrades': [], 'pingTimeout': 120000000, 'pingInterval': 2000000}
+INFO:engineio.server:56db3cc5e67d4674a6b5673c236831ea: Sending packet MESSAGE data 0
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:23:10] "[37mGET /socket.io/?EIO=3&transport=polling&t=1574578386162-6 HTTP/1.1[0m" 200 -
+INFO:engineio.server:56db3cc5e67d4674a6b5673c236831ea: Received packet MESSAGE data 0/chat
+INFO:socketio.server:56db3cc5e67d4674a6b5673c236831ea is entering room e58cd7a0-37ff-4b0a-a748-6745275a5ae3 [/chat]
+INFO:engineio.server:56db3cc5e67d4674a6b5673c236831ea: Sending packet MESSAGE data 0/chat
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:23:11] "[37mGET /socket.io/?EIO=3&transport=polling&t=1574578390261-8&sid=56db3cc5e67d4674a6b5673c236831ea HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:23:11] "[37mPOST /socket.io/?EIO=3&transport=polling&t=1574578390260-7&sid=56db3cc5e67d4674a6b5673c236831ea HTTP/1.1[0m" 200 -
+INFO:engineio.server:5216aaeab4b847d9ac692963df912c40: Sending packet OPEN data {'sid': '5216aaeab4b847d9ac692963df912c40', 'upgrades': [], 'pingTimeout': 120000000, 'pingInterval': 2000000}
+INFO:engineio.server:5216aaeab4b847d9ac692963df912c40: Sending packet MESSAGE data 0
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:23:27] "[37mGET /socket.io/?EIO=3&transport=polling&t=1574578407482-0 HTTP/1.1[0m" 200 -
+INFO:engineio.server:5216aaeab4b847d9ac692963df912c40: Received packet MESSAGE data 0/chat
+INFO:socketio.server:5216aaeab4b847d9ac692963df912c40 is entering room fb7ff95c-9e4f-4980-959e-0e819980ebf8 [/chat]
+INFO:engineio.server:5216aaeab4b847d9ac692963df912c40: Sending packet MESSAGE data 0/chat
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:23:28] "[37mGET /socket.io/?EIO=3&transport=polling&t=1574578407515-2&sid=5216aaeab4b847d9ac692963df912c40 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:23:28] "[37mPOST /socket.io/?EIO=3&transport=polling&t=1574578407514-1&sid=5216aaeab4b847d9ac692963df912c40 HTTP/1.1[0m" 200 -
+INFO:engineio.server:Server initialized for threading.
+WARNING:werkzeug:WebSocket transport not available. Install eventlet or gevent and gevent-websocket for improved performance.
+INFO:werkzeug: * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+INFO:engineio.server:70f108f7f687466387f63a3435c9df57: Sending packet OPEN data {'sid': '70f108f7f687466387f63a3435c9df57', 'upgrades': [], 'pingTimeout': 120000000, 'pingInterval': 2000000}
+INFO:engineio.server:70f108f7f687466387f63a3435c9df57: Sending packet MESSAGE data 0
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:24:05] "[37mGET /socket.io/?EIO=3&transport=polling&t=1574578441936-6 HTTP/1.1[0m" 200 -
+INFO:engineio.server:70f108f7f687466387f63a3435c9df57: Received packet MESSAGE data 0/chat
+INFO:socketio.server:70f108f7f687466387f63a3435c9df57 is entering room 5e600132-3b54-4280-bff0-77e6ac9c4810 [/chat]
+INFO:engineio.server:242bbfaffe104350a584f669ddfa7031: Sending packet OPEN data {'sid': '242bbfaffe104350a584f669ddfa7031', 'upgrades': [], 'pingTimeout': 120000000, 'pingInterval': 2000000}
+INFO:engineio.server:242bbfaffe104350a584f669ddfa7031: Sending packet MESSAGE data 0
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:24:06] "[37mGET /socket.io/?EIO=3&transport=polling&t=1574578446539-0 HTTP/1.1[0m" 200 -
+INFO:engineio.server:242bbfaffe104350a584f669ddfa7031: Received packet MESSAGE data 0/chat
+INFO:socketio.server:242bbfaffe104350a584f669ddfa7031 is entering room 0e5af3e7-1ae4-47e0-a19f-3b68c6daeee9 [/chat]
+INFO:engineio.server:70f108f7f687466387f63a3435c9df57: Sending packet MESSAGE data 0/chat
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:24:06] "[37mGET /socket.io/?EIO=3&transport=polling&t=1574578445787-8&sid=70f108f7f687466387f63a3435c9df57 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:24:06] "[37mPOST /socket.io/?EIO=3&transport=polling&t=1574578445786-7&sid=70f108f7f687466387f63a3435c9df57 HTTP/1.1[0m" 200 -
+INFO:engineio.server:242bbfaffe104350a584f669ddfa7031: Sending packet MESSAGE data 0/chat
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:24:07] "[37mGET /socket.io/?EIO=3&transport=polling&t=1574578446573-2&sid=242bbfaffe104350a584f669ddfa7031 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:24:07] "[37mPOST /socket.io/?EIO=3&transport=polling&t=1574578446569-1&sid=242bbfaffe104350a584f669ddfa7031 HTTP/1.1[0m" 200 -
+INFO:engineio.server:6ecbf6caa9ec45ba931023890a43ba62: Sending packet OPEN data {'sid': '6ecbf6caa9ec45ba931023890a43ba62', 'upgrades': [], 'pingTimeout': 120000000, 'pingInterval': 2000000}
+INFO:engineio.server:6ecbf6caa9ec45ba931023890a43ba62: Sending packet MESSAGE data 0
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:24:13] "[37mGET /socket.io/?EIO=3&transport=polling&t=1574578453283-0 HTTP/1.1[0m" 200 -
+INFO:engineio.server:6ecbf6caa9ec45ba931023890a43ba62: Received packet MESSAGE data 0/chat
+INFO:socketio.server:6ecbf6caa9ec45ba931023890a43ba62 is entering room 505995a3-5c6a-4478-a6b5-00c54faad931 [/chat]
+INFO:engineio.server:6ecbf6caa9ec45ba931023890a43ba62: Sending packet MESSAGE data 0/chat
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:24:14] "[37mGET /socket.io/?EIO=3&transport=polling&t=1574578453328-2&sid=6ecbf6caa9ec45ba931023890a43ba62 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:24:14] "[37mPOST /socket.io/?EIO=3&transport=polling&t=1574578453315-1&sid=6ecbf6caa9ec45ba931023890a43ba62 HTTP/1.1[0m" 200 -
+INFO:engineio.server:Server initialized for threading.
+WARNING:werkzeug:WebSocket transport not available. Install eventlet or gevent and gevent-websocket for improved performance.
+INFO:werkzeug: * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+INFO:engineio.server:0c894e4ac85b456f9acb250a198fefe4: Sending packet OPEN data {'sid': '0c894e4ac85b456f9acb250a198fefe4', 'upgrades': [], 'pingTimeout': 120000000, 'pingInterval': 2000000}
+INFO:engineio.server:0c894e4ac85b456f9acb250a198fefe4: Sending packet MESSAGE data 0
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:28:49] "[37mGET /socket.io/?EIO=3&transport=polling&t=1574578727224-6 HTTP/1.1[0m" 200 -
+INFO:engineio.server:0c894e4ac85b456f9acb250a198fefe4: Received packet MESSAGE data 0/chat
+INFO:socketio.server:0c894e4ac85b456f9acb250a198fefe4 is entering room f67a5c2c-29db-43d5-8246-c65d1ac92d5a [/chat]
+INFO:engineio.server:0c894e4ac85b456f9acb250a198fefe4: Sending packet MESSAGE data 0/chat
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:28:50] "[37mPOST /socket.io/?EIO=3&transport=polling&t=1574578729421-7&sid=0c894e4ac85b456f9acb250a198fefe4 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:28:50] "[37mGET /socket.io/?EIO=3&transport=polling&t=1574578729422-8&sid=0c894e4ac85b456f9acb250a198fefe4 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:28:52] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:28:52] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:28:54] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:28:57] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:29:04] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:engineio.server:Server initialized for threading.
+WARNING:werkzeug:WebSocket transport not available. Install eventlet or gevent and gevent-websocket for improved performance.
+INFO:werkzeug: * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+INFO:engineio.server:779132f0dfc04d6793d5c6fedbcb282a: Sending packet OPEN data {'sid': '779132f0dfc04d6793d5c6fedbcb282a', 'upgrades': [], 'pingTimeout': 120000000, 'pingInterval': 2000000}
+INFO:engineio.server:779132f0dfc04d6793d5c6fedbcb282a: Sending packet MESSAGE data 0
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:31:16] "[37mGET /socket.io/?EIO=3&transport=polling&t=1574578873343-28 HTTP/1.1[0m" 200 -
+INFO:engineio.server:779132f0dfc04d6793d5c6fedbcb282a: Received packet MESSAGE data 0/chat
+INFO:socketio.server:779132f0dfc04d6793d5c6fedbcb282a is entering room f34bf3cc-98a0-4b45-909f-5a77f2e86629 [/chat]
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:31:16] "[1m[35mGET / HTTP/1.1[0m" 500 -
+ERROR:werkzeug:Error on request:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/werkzeug/serving.py", line 303, in run_wsgi
+    execute(self.server.app)
+  File "/usr/local/lib/python3.7/site-packages/werkzeug/serving.py", line 291, in execute
+    application_iter = app(environ, start_response)
+  File "/usr/local/lib/python3.7/site-packages/flask/app.py", line 2463, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.7/site-packages/flask_socketio/__init__.py", line 46, in __call__
+    start_response)
+  File "/usr/local/lib/python3.7/site-packages/engineio/middleware.py", line 74, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.7/site-packages/flask/app.py", line 2449, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.7/site-packages/flask_restful/__init__.py", line 269, in error_router
+    return original_handler(e)
+  File "/usr/local/lib/python3.7/site-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.7/site-packages/flask/app.py", line 1866, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/usr/local/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.7/site-packages/flask_restful/__init__.py", line 269, in error_router
+    return original_handler(e)
+  File "/usr/local/lib/python3.7/site-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/usr/local/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/usr/local/var/www/pmi-chatbot/api/controller/routes.py", line 9, in index
+    return render_template('index.html')
+  File "/usr/local/lib/python3.7/site-packages/flask/templating.py", line 140, in render_template
+    ctx.app,
+  File "/usr/local/lib/python3.7/site-packages/flask/templating.py", line 120, in _render
+    rv = template.render(context)
+  File "/usr/local/lib/python3.7/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/usr/local/lib/python3.7/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.7/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/usr/local/var/www/pmi-chatbot/api/templates/index.html", line 8, in top-level template code
+    {{ form.hidden_tag() }}
+  File "/usr/local/lib/python3.7/site-packages/jinja2/environment.py", line 430, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'form' is undefined
+INFO:engineio.server:779132f0dfc04d6793d5c6fedbcb282a: Sending packet MESSAGE data 0/chat
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:31:17] "[37mPOST /socket.io/?EIO=3&transport=polling&t=1574578876642-29&sid=779132f0dfc04d6793d5c6fedbcb282a HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:31:17] "[37mGET /socket.io/?EIO=3&transport=polling&t=1574578876644-30&sid=779132f0dfc04d6793d5c6fedbcb282a HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:31:21] "[1m[35mGET / HTTP/1.1[0m" 500 -
+ERROR:werkzeug:Error on request:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/werkzeug/serving.py", line 303, in run_wsgi
+    execute(self.server.app)
+  File "/usr/local/lib/python3.7/site-packages/werkzeug/serving.py", line 291, in execute
+    application_iter = app(environ, start_response)
+  File "/usr/local/lib/python3.7/site-packages/flask/app.py", line 2463, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.7/site-packages/flask_socketio/__init__.py", line 46, in __call__
+    start_response)
+  File "/usr/local/lib/python3.7/site-packages/engineio/middleware.py", line 74, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.7/site-packages/flask/app.py", line 2449, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.7/site-packages/flask_restful/__init__.py", line 269, in error_router
+    return original_handler(e)
+  File "/usr/local/lib/python3.7/site-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.7/site-packages/flask/app.py", line 1866, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/usr/local/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.7/site-packages/flask_restful/__init__.py", line 269, in error_router
+    return original_handler(e)
+  File "/usr/local/lib/python3.7/site-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/usr/local/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/usr/local/var/www/pmi-chatbot/api/controller/routes.py", line 9, in index
+    return render_template('index.html')
+  File "/usr/local/lib/python3.7/site-packages/flask/templating.py", line 140, in render_template
+    ctx.app,
+  File "/usr/local/lib/python3.7/site-packages/flask/templating.py", line 120, in _render
+    rv = template.render(context)
+  File "/usr/local/lib/python3.7/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/usr/local/lib/python3.7/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.7/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/usr/local/var/www/pmi-chatbot/api/templates/index.html", line 8, in top-level template code
+    {{ form.hidden_tag() }}
+  File "/usr/local/lib/python3.7/site-packages/jinja2/environment.py", line 430, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'form' is undefined
+INFO:engineio.server:Server initialized for threading.
+WARNING:werkzeug:WebSocket transport not available. Install eventlet or gevent and gevent-websocket for improved performance.
+INFO:werkzeug: * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+INFO:engineio.server:03d70a63f5044c408ab049ec0769e190: Sending packet OPEN data {'sid': '03d70a63f5044c408ab049ec0769e190', 'upgrades': [], 'pingTimeout': 120000000, 'pingInterval': 2000000}
+INFO:engineio.server:03d70a63f5044c408ab049ec0769e190: Sending packet MESSAGE data 0
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:32:26] "[37mGET /socket.io/?EIO=3&transport=polling&t=1574578945221-34 HTTP/1.1[0m" 200 -
+INFO:engineio.server:03d70a63f5044c408ab049ec0769e190: Received packet MESSAGE data 0/chat
+INFO:socketio.server:03d70a63f5044c408ab049ec0769e190 is entering room 62e0094d-461e-4890-ac95-9bc389e60b39 [/chat]
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:32:26] "[1m[35mGET / HTTP/1.1[0m" 500 -
+ERROR:werkzeug:Error on request:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/werkzeug/serving.py", line 303, in run_wsgi
+    execute(self.server.app)
+  File "/usr/local/lib/python3.7/site-packages/werkzeug/serving.py", line 291, in execute
+    application_iter = app(environ, start_response)
+  File "/usr/local/lib/python3.7/site-packages/flask/app.py", line 2463, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.7/site-packages/flask_socketio/__init__.py", line 46, in __call__
+    start_response)
+  File "/usr/local/lib/python3.7/site-packages/engineio/middleware.py", line 74, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.7/site-packages/flask/app.py", line 2449, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.7/site-packages/flask_restful/__init__.py", line 269, in error_router
+    return original_handler(e)
+  File "/usr/local/lib/python3.7/site-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.7/site-packages/flask/app.py", line 1866, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/usr/local/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.7/site-packages/flask_restful/__init__.py", line 269, in error_router
+    return original_handler(e)
+  File "/usr/local/lib/python3.7/site-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/usr/local/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/usr/local/var/www/pmi-chatbot/api/controller/routes.py", line 9, in index
+    return render_template('index.html')
+  File "/usr/local/lib/python3.7/site-packages/flask/templating.py", line 140, in render_template
+    ctx.app,
+  File "/usr/local/lib/python3.7/site-packages/flask/templating.py", line 120, in _render
+    rv = template.render(context)
+  File "/usr/local/lib/python3.7/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/usr/local/lib/python3.7/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.7/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/usr/local/var/www/pmi-chatbot/api/templates/index.html", line 8, in top-level template code
+    {{ form.hidden_tag() }}
+  File "/usr/local/lib/python3.7/site-packages/jinja2/environment.py", line 430, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'form' is undefined
+INFO:engineio.server:03d70a63f5044c408ab049ec0769e190: Sending packet MESSAGE data 0/chat
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:32:27] "[37mGET /socket.io/?EIO=3&transport=polling&t=1574578946629-36&sid=03d70a63f5044c408ab049ec0769e190 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:32:27] "[37mPOST /socket.io/?EIO=3&transport=polling&t=1574578946629-35&sid=03d70a63f5044c408ab049ec0769e190 HTTP/1.1[0m" 200 -
+INFO:engineio.server:Server initialized for threading.
+WARNING:werkzeug:WebSocket transport not available. Install eventlet or gevent and gevent-websocket for improved performance.
+INFO:werkzeug: * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:33:19] "[1m[35mGET / HTTP/1.1[0m" 500 -
+ERROR:werkzeug:Error on request:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/werkzeug/serving.py", line 303, in run_wsgi
+    execute(self.server.app)
+  File "/usr/local/lib/python3.7/site-packages/werkzeug/serving.py", line 291, in execute
+    application_iter = app(environ, start_response)
+  File "/usr/local/lib/python3.7/site-packages/flask/app.py", line 2463, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.7/site-packages/flask_socketio/__init__.py", line 46, in __call__
+    start_response)
+  File "/usr/local/lib/python3.7/site-packages/engineio/middleware.py", line 74, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.7/site-packages/flask/app.py", line 2449, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.7/site-packages/flask_restful/__init__.py", line 269, in error_router
+    return original_handler(e)
+  File "/usr/local/lib/python3.7/site-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.7/site-packages/flask/app.py", line 1866, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/usr/local/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.7/site-packages/flask_restful/__init__.py", line 269, in error_router
+    return original_handler(e)
+  File "/usr/local/lib/python3.7/site-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/usr/local/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/usr/local/var/www/pmi-chatbot/api/controller/routes.py", line 9, in index
+    return render_template('index.html')
+  File "/usr/local/lib/python3.7/site-packages/flask/templating.py", line 140, in render_template
+    ctx.app,
+  File "/usr/local/lib/python3.7/site-packages/flask/templating.py", line 120, in _render
+    rv = template.render(context)
+  File "/usr/local/lib/python3.7/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/usr/local/lib/python3.7/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.7/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/usr/local/var/www/pmi-chatbot/api/templates/index.html", line 8, in top-level template code
+    {{ form.hidden_tag() }}
+  File "/usr/local/lib/python3.7/site-packages/jinja2/environment.py", line 430, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'form' is undefined
+INFO:engineio.server:56c81e69f3ed40e8beea7035fa71299e: Sending packet OPEN data {'sid': '56c81e69f3ed40e8beea7035fa71299e', 'upgrades': [], 'pingTimeout': 120000000, 'pingInterval': 2000000}
+INFO:engineio.server:56c81e69f3ed40e8beea7035fa71299e: Sending packet MESSAGE data 0
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:33:19] "[37mGET /socket.io/?EIO=3&transport=polling&t=1574578995223-39 HTTP/1.1[0m" 200 -
+INFO:engineio.server:56c81e69f3ed40e8beea7035fa71299e: Received packet MESSAGE data 0/chat
+INFO:socketio.server:56c81e69f3ed40e8beea7035fa71299e is entering room 44420f26-f749-44d7-9b58-037a9f776553 [/chat]
+INFO:engineio.server:56c81e69f3ed40e8beea7035fa71299e: Sending packet MESSAGE data 0/chat
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:33:20] "[37mGET /socket.io/?EIO=3&transport=polling&t=1574578999550-41&sid=56c81e69f3ed40e8beea7035fa71299e HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:33:20] "[37mPOST /socket.io/?EIO=3&transport=polling&t=1574578999549-40&sid=56c81e69f3ed40e8beea7035fa71299e HTTP/1.1[0m" 200 -
+INFO:engineio.server:Server initialized for threading.
+WARNING:werkzeug:WebSocket transport not available. Install eventlet or gevent and gevent-websocket for improved performance.
+INFO:werkzeug: * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+INFO:engineio.server:8453eaf59b124d2291c5e51019c4b957: Sending packet OPEN data {'sid': '8453eaf59b124d2291c5e51019c4b957', 'upgrades': [], 'pingTimeout': 120000000, 'pingInterval': 2000000}
+INFO:engineio.server:8453eaf59b124d2291c5e51019c4b957: Sending packet MESSAGE data 0
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:34:45] "[37mGET /socket.io/?EIO=3&transport=polling&t=1574579084223-45 HTTP/1.1[0m" 200 -
+INFO:engineio.server:8453eaf59b124d2291c5e51019c4b957: Received packet MESSAGE data 0/chat
+INFO:socketio.server:8453eaf59b124d2291c5e51019c4b957 is entering room cfde8441-756f-4b29-b5f0-22589776a5dc [/chat]
+INFO:engineio.server:8453eaf59b124d2291c5e51019c4b957: Sending packet MESSAGE data 0/chat
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:34:46] "[37mGET /socket.io/?EIO=3&transport=polling&t=1574579085900-47&sid=8453eaf59b124d2291c5e51019c4b957 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:34:46] "[37mPOST /socket.io/?EIO=3&transport=polling&t=1574579085899-46&sid=8453eaf59b124d2291c5e51019c4b957 HTTP/1.1[0m" 200 -
+INFO:engineio.server:Server initialized for threading.
+WARNING:werkzeug:WebSocket transport not available. Install eventlet or gevent and gevent-websocket for improved performance.
+INFO:werkzeug: * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:35:47] "[1m[35mGET / HTTP/1.1[0m" 500 -
+ERROR:werkzeug:Error on request:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/werkzeug/serving.py", line 303, in run_wsgi
+    execute(self.server.app)
+  File "/usr/local/lib/python3.7/site-packages/werkzeug/serving.py", line 291, in execute
+    application_iter = app(environ, start_response)
+  File "/usr/local/lib/python3.7/site-packages/flask/app.py", line 2463, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.7/site-packages/flask_socketio/__init__.py", line 46, in __call__
+    start_response)
+  File "/usr/local/lib/python3.7/site-packages/engineio/middleware.py", line 74, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.7/site-packages/flask/app.py", line 2449, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.7/site-packages/flask_restful/__init__.py", line 269, in error_router
+    return original_handler(e)
+  File "/usr/local/lib/python3.7/site-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.7/site-packages/flask/app.py", line 1866, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/usr/local/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.7/site-packages/flask_restful/__init__.py", line 269, in error_router
+    return original_handler(e)
+  File "/usr/local/lib/python3.7/site-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/usr/local/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/usr/local/var/www/pmi-chatbot/api/controller/routes.py", line 9, in index
+    return render_template('index.html')
+  File "/usr/local/lib/python3.7/site-packages/flask/templating.py", line 140, in render_template
+    ctx.app,
+  File "/usr/local/lib/python3.7/site-packages/flask/templating.py", line 120, in _render
+    rv = template.render(context)
+  File "/usr/local/lib/python3.7/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/usr/local/lib/python3.7/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.7/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/usr/local/var/www/pmi-chatbot/api/templates/index.html", line 8, in top-level template code
+    {{ form.hidden_tag() }}
+  File "/usr/local/lib/python3.7/site-packages/jinja2/environment.py", line 430, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'form' is undefined
+INFO:engineio.server:cb1246c5bb92443690a1e1237f246b85: Sending packet OPEN data {'sid': 'cb1246c5bb92443690a1e1237f246b85', 'upgrades': [], 'pingTimeout': 120000000, 'pingInterval': 2000000}
+INFO:engineio.server:cb1246c5bb92443690a1e1237f246b85: Sending packet MESSAGE data 0
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:35:48] "[37mGET /socket.io/?EIO=3&transport=polling&t=1574579141316-50 HTTP/1.1[0m" 200 -
+INFO:engineio.server:cb1246c5bb92443690a1e1237f246b85: Received packet MESSAGE data 0/chat
+INFO:socketio.server:cb1246c5bb92443690a1e1237f246b85 is entering room 8a75bac8-f156-4319-8324-25a135a64209 [/chat]
+INFO:engineio.server:cb1246c5bb92443690a1e1237f246b85: Sending packet MESSAGE data 0/chat
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:35:49] "[37mGET /socket.io/?EIO=3&transport=polling&t=1574579148106-52&sid=cb1246c5bb92443690a1e1237f246b85 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:35:49] "[37mPOST /socket.io/?EIO=3&transport=polling&t=1574579148105-51&sid=cb1246c5bb92443690a1e1237f246b85 HTTP/1.1[0m" 200 -
+INFO:engineio.server:Server initialized for threading.
+WARNING:werkzeug:WebSocket transport not available. Install eventlet or gevent and gevent-websocket for improved performance.
+INFO:werkzeug: * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+INFO:engineio.server:7b9be617f85749cb8810d9220b8766a8: Sending packet OPEN data {'sid': '7b9be617f85749cb8810d9220b8766a8', 'upgrades': [], 'pingTimeout': 120000000, 'pingInterval': 2000000}
+INFO:engineio.server:7b9be617f85749cb8810d9220b8766a8: Sending packet MESSAGE data 0
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:36:40] "[37mGET /socket.io/?EIO=3&transport=polling&t=1574579196225-55 HTTP/1.1[0m" 200 -
+INFO:engineio.server:7b9be617f85749cb8810d9220b8766a8: Received packet MESSAGE data 0/chat
+INFO:socketio.server:7b9be617f85749cb8810d9220b8766a8 is entering room 0bfdf774-1a95-42a8-a3f1-d2c8ea51e9f3 [/chat]
+INFO:socketio.server:emitting event "status" to 0bfdf774-1a95-42a8-a3f1-d2c8ea51e9f3 [/chat]
+INFO:engineio.server:7b9be617f85749cb8810d9220b8766a8: Sending packet MESSAGE data 2/chat,["status",{"type":"Connected","text":"You are connected : 0bfdf774-1a95-42a8-a3f1-d2c8ea51e9f3"}]
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:36:41] "[37mGET /socket.io/?EIO=3&transport=polling&t=1574579200031-57&sid=7b9be617f85749cb8810d9220b8766a8 HTTP/1.1[0m" 200 -
+INFO:engineio.server:7b9be617f85749cb8810d9220b8766a8: Sending packet MESSAGE data 0/chat
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:36:41] "[37mPOST /socket.io/?EIO=3&transport=polling&t=1574579200030-56&sid=7b9be617f85749cb8810d9220b8766a8 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:36:41] "[37mGET /socket.io/?EIO=3&transport=polling&t=1574579201046-58&sid=7b9be617f85749cb8810d9220b8766a8 HTTP/1.1[0m" 200 -
+INFO:engineio.server:3817bdcf8ea34c49a4910a9ce731619a: Sending packet OPEN data {'sid': '3817bdcf8ea34c49a4910a9ce731619a', 'upgrades': [], 'pingTimeout': 120000000, 'pingInterval': 2000000}
+INFO:engineio.server:3817bdcf8ea34c49a4910a9ce731619a: Sending packet MESSAGE data 0
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:36:49] "[37mGET /socket.io/?EIO=3&transport=polling&t=1574579209029-0 HTTP/1.1[0m" 200 -
+INFO:engineio.server:3817bdcf8ea34c49a4910a9ce731619a: Received packet MESSAGE data 0/chat
+INFO:socketio.server:3817bdcf8ea34c49a4910a9ce731619a is entering room 5a6a9fff-c52e-43a1-afbb-a3ef5fa73bb4 [/chat]
+INFO:socketio.server:emitting event "status" to 5a6a9fff-c52e-43a1-afbb-a3ef5fa73bb4 [/chat]
+INFO:engineio.server:3817bdcf8ea34c49a4910a9ce731619a: Sending packet MESSAGE data 2/chat,["status",{"type":"Connected","text":"You are connected : 5a6a9fff-c52e-43a1-afbb-a3ef5fa73bb4"}]
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:36:50] "[37mGET /socket.io/?EIO=3&transport=polling&t=1574579209071-2&sid=3817bdcf8ea34c49a4910a9ce731619a HTTP/1.1[0m" 200 -
+INFO:engineio.server:3817bdcf8ea34c49a4910a9ce731619a: Sending packet MESSAGE data 0/chat
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:36:50] "[37mPOST /socket.io/?EIO=3&transport=polling&t=1574579209068-1&sid=3817bdcf8ea34c49a4910a9ce731619a HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:36:50] "[37mGET /socket.io/?EIO=3&transport=polling&t=1574579210078-3&sid=3817bdcf8ea34c49a4910a9ce731619a HTTP/1.1[0m" 200 -
+INFO:engineio.server:Server initialized for threading.
+WARNING:werkzeug:WebSocket transport not available. Install eventlet or gevent and gevent-websocket for improved performance.
+INFO:werkzeug: * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+INFO:engineio.server:7d7fe72be7ca4a668bdba2e74397ced3: Sending packet OPEN data {'sid': '7d7fe72be7ca4a668bdba2e74397ced3', 'upgrades': [], 'pingTimeout': 120000000, 'pingInterval': 2000000}
+INFO:engineio.server:7d7fe72be7ca4a668bdba2e74397ced3: Sending packet MESSAGE data 0
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:39:39] "[37mGET /socket.io/?EIO=3&transport=polling&t=1574579379226-15 HTTP/1.1[0m" 200 -
+INFO:engineio.server:7d7fe72be7ca4a668bdba2e74397ced3: Received packet MESSAGE data 0/chat
+INFO:socketio.server:7d7fe72be7ca4a668bdba2e74397ced3 is entering room 7e7c2889-24c4-4970-87a8-ff421938b6c7 [/chat]
+INFO:socketio.server:emitting event "status" to 7e7c2889-24c4-4970-87a8-ff421938b6c7 [/chat]
+INFO:engineio.server:7d7fe72be7ca4a668bdba2e74397ced3: Sending packet MESSAGE data 2/chat,["status",{"type":"Connected","text":"You are connected : 7e7c2889-24c4-4970-87a8-ff421938b6c7"}]
+INFO:engineio.server:7d7fe72be7ca4a668bdba2e74397ced3: Sending packet MESSAGE data 0/chat
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:39:41] "[37mGET /socket.io/?EIO=3&transport=polling&t=1574579380012-17&sid=7d7fe72be7ca4a668bdba2e74397ced3 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:39:41] "[37mPOST /socket.io/?EIO=3&transport=polling&t=1574579380010-16&sid=7d7fe72be7ca4a668bdba2e74397ced3 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:39:41] "[37mGET /socket.io/?EIO=3&transport=polling&t=1574579381038-18&sid=7d7fe72be7ca4a668bdba2e74397ced3 HTTP/1.1[0m" 200 -
+INFO:engineio.server:2c6fd35519b2401086c95275c245a0a0: Sending packet OPEN data {'sid': '2c6fd35519b2401086c95275c245a0a0', 'upgrades': [], 'pingTimeout': 120000000, 'pingInterval': 2000000}
+INFO:engineio.server:2c6fd35519b2401086c95275c245a0a0: Sending packet MESSAGE data 0
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:39:47] "[37mGET /socket.io/?EIO=3&transport=polling&t=1574579387208-0 HTTP/1.1[0m" 200 -
+INFO:engineio.server:2c6fd35519b2401086c95275c245a0a0: Received packet MESSAGE data 0/chat
+INFO:socketio.server:2c6fd35519b2401086c95275c245a0a0 is entering room c9df0c5c-3af1-4645-ab2b-eea5355176ee [/chat]
+INFO:socketio.server:emitting event "status" to c9df0c5c-3af1-4645-ab2b-eea5355176ee [/chat]
+INFO:engineio.server:2c6fd35519b2401086c95275c245a0a0: Sending packet MESSAGE data 2/chat,["status",{"type":"Connected","text":"You are connected : c9df0c5c-3af1-4645-ab2b-eea5355176ee"}]
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:39:48] "[37mGET /socket.io/?EIO=3&transport=polling&t=1574579387260-2&sid=2c6fd35519b2401086c95275c245a0a0 HTTP/1.1[0m" 200 -
+INFO:engineio.server:2c6fd35519b2401086c95275c245a0a0: Sending packet MESSAGE data 0/chat
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:39:48] "[37mPOST /socket.io/?EIO=3&transport=polling&t=1574579387257-1&sid=2c6fd35519b2401086c95275c245a0a0 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:39:48] "[37mGET /socket.io/?EIO=3&transport=polling&t=1574579388281-3&sid=2c6fd35519b2401086c95275c245a0a0 HTTP/1.1[0m" 200 -
+INFO:engineio.server:0f5e2b35ff9e495593ce1fc6cc2f9d6a: Sending packet OPEN data {'sid': '0f5e2b35ff9e495593ce1fc6cc2f9d6a', 'upgrades': [], 'pingTimeout': 120000000, 'pingInterval': 2000000}
+INFO:engineio.server:0f5e2b35ff9e495593ce1fc6cc2f9d6a: Sending packet MESSAGE data 0
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:39:52] "[37mGET /socket.io/?EIO=3&transport=polling&t=1574579392879-0 HTTP/1.1[0m" 200 -
+INFO:engineio.server:0f5e2b35ff9e495593ce1fc6cc2f9d6a: Received packet MESSAGE data 0/chat
+INFO:socketio.server:0f5e2b35ff9e495593ce1fc6cc2f9d6a is entering room 12ecef72-95d2-48c4-970f-f73ef593947b [/chat]
+INFO:socketio.server:emitting event "status" to 12ecef72-95d2-48c4-970f-f73ef593947b [/chat]
+INFO:engineio.server:0f5e2b35ff9e495593ce1fc6cc2f9d6a: Sending packet MESSAGE data 2/chat,["status",{"type":"Connected","text":"You are connected : 12ecef72-95d2-48c4-970f-f73ef593947b"}]
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:39:53] "[37mGET /socket.io/?EIO=3&transport=polling&t=1574579392915-2&sid=0f5e2b35ff9e495593ce1fc6cc2f9d6a HTTP/1.1[0m" 200 -
+INFO:engineio.server:0f5e2b35ff9e495593ce1fc6cc2f9d6a: Sending packet MESSAGE data 0/chat
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:39:53] "[37mPOST /socket.io/?EIO=3&transport=polling&t=1574579392913-1&sid=0f5e2b35ff9e495593ce1fc6cc2f9d6a HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:39:53] "[37mGET /socket.io/?EIO=3&transport=polling&t=1574579393943-3&sid=0f5e2b35ff9e495593ce1fc6cc2f9d6a HTTP/1.1[0m" 200 -
+INFO:engineio.server:Server initialized for threading.
+WARNING:werkzeug:WebSocket transport not available. Install eventlet or gevent and gevent-websocket for improved performance.
+INFO:werkzeug: * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+INFO:engineio.server:b76263160eaa42b0bf9ad04c6028e8e9: Sending packet OPEN data {'sid': 'b76263160eaa42b0bf9ad04c6028e8e9', 'upgrades': [], 'pingTimeout': 120000000, 'pingInterval': 2000000}
+INFO:engineio.server:b76263160eaa42b0bf9ad04c6028e8e9: Sending packet MESSAGE data 0
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:41:23] "[37mGET /socket.io/?EIO=3&transport=polling&t=1574579483671-12 HTTP/1.1[0m" 200 -
+INFO:engineio.server:b76263160eaa42b0bf9ad04c6028e8e9: Received packet MESSAGE data 0/chat
+INFO:socketio.server:b76263160eaa42b0bf9ad04c6028e8e9 is entering room ced1472a-75e4-44f8-afa1-26e93cc287fd [/chat]
+INFO:socketio.server:emitting event "status" to ced1472a-75e4-44f8-afa1-26e93cc287fd [/chat]
+INFO:engineio.server:b76263160eaa42b0bf9ad04c6028e8e9: Sending packet MESSAGE data 2/chat,["status",{"type":"Connected","text":"You are connected : ced1472a-75e4-44f8-afa1-26e93cc287fd"}]
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:41:24] "[37mGET /socket.io/?EIO=3&transport=polling&t=1574579483681-14&sid=b76263160eaa42b0bf9ad04c6028e8e9 HTTP/1.1[0m" 200 -
+INFO:engineio.server:b76263160eaa42b0bf9ad04c6028e8e9: Sending packet MESSAGE data 0/chat
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:41:24] "[37mPOST /socket.io/?EIO=3&transport=polling&t=1574579483680-13&sid=b76263160eaa42b0bf9ad04c6028e8e9 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:41:24] "[37mGET /socket.io/?EIO=3&transport=polling&t=1574579484690-15&sid=b76263160eaa42b0bf9ad04c6028e8e9 HTTP/1.1[0m" 200 -
+INFO:engineio.server:50c29263f26d4ad2a92bcf3107de2acc: Sending packet OPEN data {'sid': '50c29263f26d4ad2a92bcf3107de2acc', 'upgrades': [], 'pingTimeout': 120000000, 'pingInterval': 2000000}
+INFO:engineio.server:50c29263f26d4ad2a92bcf3107de2acc: Sending packet MESSAGE data 0
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:41:29] "[37mGET /socket.io/?EIO=3&transport=polling&t=1574579489492-0 HTTP/1.1[0m" 200 -
+INFO:engineio.server:50c29263f26d4ad2a92bcf3107de2acc: Received packet MESSAGE data 0/chat
+INFO:socketio.server:50c29263f26d4ad2a92bcf3107de2acc is entering room d55664ce-b7dc-4c9c-ba71-fa9cb3c526b7 [/chat]
+INFO:socketio.server:emitting event "status" to d55664ce-b7dc-4c9c-ba71-fa9cb3c526b7 [/chat]
+INFO:engineio.server:50c29263f26d4ad2a92bcf3107de2acc: Sending packet MESSAGE data 2/chat,["status",{"type":"Connected","text":"You are connected : d55664ce-b7dc-4c9c-ba71-fa9cb3c526b7"}]
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:41:30] "[37mGET /socket.io/?EIO=3&transport=polling&t=1574579489530-2&sid=50c29263f26d4ad2a92bcf3107de2acc HTTP/1.1[0m" 200 -
+INFO:engineio.server:50c29263f26d4ad2a92bcf3107de2acc: Sending packet MESSAGE data 0/chat
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:41:30] "[37mPOST /socket.io/?EIO=3&transport=polling&t=1574579489522-1&sid=50c29263f26d4ad2a92bcf3107de2acc HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:41:30] "[37mGET /socket.io/?EIO=3&transport=polling&t=1574579490538-3&sid=50c29263f26d4ad2a92bcf3107de2acc HTTP/1.1[0m" 200 -
+INFO:engineio.server:b6a1689bb1eb4779aff6816f27abba4d: Sending packet OPEN data {'sid': 'b6a1689bb1eb4779aff6816f27abba4d', 'upgrades': [], 'pingTimeout': 120000000, 'pingInterval': 2000000}
+INFO:engineio.server:b6a1689bb1eb4779aff6816f27abba4d: Sending packet MESSAGE data 0
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:41:37] "[37mGET /socket.io/?EIO=3&transport=polling&t=1574579497084-0 HTTP/1.1[0m" 200 -
+INFO:engineio.server:b6a1689bb1eb4779aff6816f27abba4d: Received packet MESSAGE data 0/chat
+INFO:socketio.server:b6a1689bb1eb4779aff6816f27abba4d is entering room 18c10f79-0604-4abb-8ba2-4321bd3b0c70 [/chat]
+INFO:socketio.server:emitting event "status" to 18c10f79-0604-4abb-8ba2-4321bd3b0c70 [/chat]
+INFO:engineio.server:b6a1689bb1eb4779aff6816f27abba4d: Sending packet MESSAGE data 2/chat,["status",{"type":"Connected","text":"You are connected : 18c10f79-0604-4abb-8ba2-4321bd3b0c70"}]
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:41:38] "[37mGET /socket.io/?EIO=3&transport=polling&t=1574579497110-2&sid=b6a1689bb1eb4779aff6816f27abba4d HTTP/1.1[0m" 200 -
+INFO:engineio.server:b6a1689bb1eb4779aff6816f27abba4d: Sending packet MESSAGE data 0/chat
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:41:38] "[37mPOST /socket.io/?EIO=3&transport=polling&t=1574579497109-1&sid=b6a1689bb1eb4779aff6816f27abba4d HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:41:38] "[37mGET /socket.io/?EIO=3&transport=polling&t=1574579498128-3&sid=b6a1689bb1eb4779aff6816f27abba4d HTTP/1.1[0m" 200 -
+INFO:engineio.server:Server initialized for threading.
+WARNING:werkzeug:WebSocket transport not available. Install eventlet or gevent and gevent-websocket for improved performance.
+INFO:werkzeug: * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+INFO:engineio.server:f592c59647704daf8da8a7d4211a84b0: Sending packet OPEN data {'sid': 'f592c59647704daf8da8a7d4211a84b0', 'upgrades': [], 'pingTimeout': 120000000, 'pingInterval': 2000000}
+INFO:engineio.server:f592c59647704daf8da8a7d4211a84b0: Sending packet MESSAGE data 0
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:42:34] "[37mGET /socket.io/?EIO=3&transport=polling&t=1574579547558-6 HTTP/1.1[0m" 200 -
+INFO:engineio.server:f592c59647704daf8da8a7d4211a84b0: Received packet MESSAGE data 0/chat
+INFO:socketio.server:f592c59647704daf8da8a7d4211a84b0 is entering room 289b6193-85c0-4edf-99c4-b59f4a928eac [/chat]
+INFO:socketio.server:emitting event "status" to 289b6193-85c0-4edf-99c4-b59f4a928eac [/chat]
+INFO:engineio.server:f592c59647704daf8da8a7d4211a84b0: Sending packet MESSAGE data 2/chat,["status",{"type":"Connected","text":"You are connected : 289b6193-85c0-4edf-99c4-b59f4a928eac"}]
+INFO:engineio.server:f592c59647704daf8da8a7d4211a84b0: Sending packet MESSAGE data 0/chat
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:42:35] "[37mPOST /socket.io/?EIO=3&transport=polling&t=1574579554344-7&sid=f592c59647704daf8da8a7d4211a84b0 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:42:35] "[37mGET /socket.io/?EIO=3&transport=polling&t=1574579554345-8&sid=f592c59647704daf8da8a7d4211a84b0 HTTP/1.1[0m" 200 -
+INFO:engineio.server:f888d4b34c0e4386b6cc2246e62175da: Sending packet OPEN data {'sid': 'f888d4b34c0e4386b6cc2246e62175da', 'upgrades': [], 'pingTimeout': 120000000, 'pingInterval': 2000000}
+INFO:engineio.server:f888d4b34c0e4386b6cc2246e62175da: Sending packet MESSAGE data 0
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:42:40] "[37mGET /socket.io/?EIO=3&transport=polling&t=1574579560899-0 HTTP/1.1[0m" 200 -
+INFO:engineio.server:f888d4b34c0e4386b6cc2246e62175da: Received packet MESSAGE data 0/chat
+INFO:socketio.server:f888d4b34c0e4386b6cc2246e62175da is entering room 036e9ee3-c4f1-4c31-b49d-309ea2f48a35 [/chat]
+INFO:socketio.server:emitting event "status" to 036e9ee3-c4f1-4c31-b49d-309ea2f48a35 [/chat]
+INFO:engineio.server:f888d4b34c0e4386b6cc2246e62175da: Sending packet MESSAGE data 2/chat,["status",{"type":"Connected","text":"You are connected : 036e9ee3-c4f1-4c31-b49d-309ea2f48a35"}]
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:42:41] "[37mGET /socket.io/?EIO=3&transport=polling&t=1574579560946-2&sid=f888d4b34c0e4386b6cc2246e62175da HTTP/1.1[0m" 200 -
+INFO:engineio.server:f888d4b34c0e4386b6cc2246e62175da: Sending packet MESSAGE data 0/chat
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:42:41] "[37mPOST /socket.io/?EIO=3&transport=polling&t=1574579560945-1&sid=f888d4b34c0e4386b6cc2246e62175da HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:42:41] "[37mGET /socket.io/?EIO=3&transport=polling&t=1574579561969-3&sid=f888d4b34c0e4386b6cc2246e62175da HTTP/1.1[0m" 200 -
+INFO:engineio.server:3c30151369654b08990e2bef08526006: Sending packet OPEN data {'sid': '3c30151369654b08990e2bef08526006', 'upgrades': [], 'pingTimeout': 120000000, 'pingInterval': 2000000}
+INFO:engineio.server:3c30151369654b08990e2bef08526006: Sending packet MESSAGE data 0
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:42:47] "[37mGET /socket.io/?EIO=3&transport=polling&t=1574579567861-0 HTTP/1.1[0m" 200 -
+INFO:engineio.server:3c30151369654b08990e2bef08526006: Received packet MESSAGE data 0/chat
+INFO:socketio.server:3c30151369654b08990e2bef08526006 is entering room 90095b3e-ba8b-4216-815d-c27ff021aa7d [/chat]
+INFO:socketio.server:emitting event "status" to 90095b3e-ba8b-4216-815d-c27ff021aa7d [/chat]
+INFO:engineio.server:3c30151369654b08990e2bef08526006: Sending packet MESSAGE data 2/chat,["status",{"type":"Connected","text":"You are connected : 90095b3e-ba8b-4216-815d-c27ff021aa7d"}]
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:42:48] "[37mGET /socket.io/?EIO=3&transport=polling&t=1574579567906-2&sid=3c30151369654b08990e2bef08526006 HTTP/1.1[0m" 200 -
+INFO:engineio.server:3c30151369654b08990e2bef08526006: Sending packet MESSAGE data 0/chat
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:42:48] "[37mPOST /socket.io/?EIO=3&transport=polling&t=1574579567905-1&sid=3c30151369654b08990e2bef08526006 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:42:48] "[37mGET /socket.io/?EIO=3&transport=polling&t=1574579568959-3&sid=3c30151369654b08990e2bef08526006 HTTP/1.1[0m" 200 -
+INFO:engineio.server:Server initialized for threading.
+WARNING:werkzeug:WebSocket transport not available. Install eventlet or gevent and gevent-websocket for improved performance.
+INFO:werkzeug: * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+INFO:engineio.server:a66887289b56419b880dde7e6e7fab0a: Sending packet OPEN data {'sid': 'a66887289b56419b880dde7e6e7fab0a', 'upgrades': [], 'pingTimeout': 120000000, 'pingInterval': 2000000}
+INFO:engineio.server:a66887289b56419b880dde7e6e7fab0a: Sending packet MESSAGE data 0
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:44:26] "[37mGET /socket.io/?EIO=3&transport=polling&t=1574579659361-6 HTTP/1.1[0m" 200 -
+INFO:engineio.server:a66887289b56419b880dde7e6e7fab0a: Received packet MESSAGE data 0/chat
+INFO:socketio.server:a66887289b56419b880dde7e6e7fab0a is entering room a3cbc8a5-ba52-4a7d-893b-cb1f44298db4 [/chat]
+INFO:socketio.server:emitting event "status" to a3cbc8a5-ba52-4a7d-893b-cb1f44298db4 [/chat]
+INFO:engineio.server:a66887289b56419b880dde7e6e7fab0a: Sending packet MESSAGE data 2/chat,["status",{"type":"Connected","text":"You are connected : a3cbc8a5-ba52-4a7d-893b-cb1f44298db4"}]
+INFO:engineio.server:a66887289b56419b880dde7e6e7fab0a: Sending packet MESSAGE data 0/chat
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:44:27] "[37mPOST /socket.io/?EIO=3&transport=polling&t=1574579666160-7&sid=a66887289b56419b880dde7e6e7fab0a HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:44:27] "[37mGET /socket.io/?EIO=3&transport=polling&t=1574579666161-8&sid=a66887289b56419b880dde7e6e7fab0a HTTP/1.1[0m" 200 -
+INFO:engineio.server:65e01016d76c424fa2734ef9ea425c76: Sending packet OPEN data {'sid': '65e01016d76c424fa2734ef9ea425c76', 'upgrades': [], 'pingTimeout': 120000000, 'pingInterval': 2000000}
+INFO:engineio.server:65e01016d76c424fa2734ef9ea425c76: Sending packet MESSAGE data 0
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:44:44] "[37mGET /socket.io/?EIO=3&transport=polling&t=1574579684072-0 HTTP/1.1[0m" 200 -
+INFO:engineio.server:65e01016d76c424fa2734ef9ea425c76: Received packet MESSAGE data 0/chat
+INFO:socketio.server:65e01016d76c424fa2734ef9ea425c76 is entering room ba5f8316-6d26-47e3-99aa-79a55f5b9e96 [/chat]
+INFO:socketio.server:emitting event "status" to ba5f8316-6d26-47e3-99aa-79a55f5b9e96 [/chat]
+INFO:engineio.server:65e01016d76c424fa2734ef9ea425c76: Sending packet MESSAGE data 2/chat,["status",{"type":"Connected","text":"You are connected : ba5f8316-6d26-47e3-99aa-79a55f5b9e96"}]
+INFO:engineio.server:65e01016d76c424fa2734ef9ea425c76: Sending packet MESSAGE data 0/chat
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:44:45] "[37mPOST /socket.io/?EIO=3&transport=polling&t=1574579684084-1&sid=65e01016d76c424fa2734ef9ea425c76 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:44:45] "[37mGET /socket.io/?EIO=3&transport=polling&t=1574579684090-2&sid=65e01016d76c424fa2734ef9ea425c76 HTTP/1.1[0m" 200 -
+INFO:engineio.server:5786b8f0702e4dc58aaa186195cbec1e: Sending packet OPEN data {'sid': '5786b8f0702e4dc58aaa186195cbec1e', 'upgrades': [], 'pingTimeout': 120000000, 'pingInterval': 2000000}
+INFO:engineio.server:5786b8f0702e4dc58aaa186195cbec1e: Sending packet MESSAGE data 0
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:44:49] "[37mGET /socket.io/?EIO=3&transport=polling&t=1574579689226-0 HTTP/1.1[0m" 200 -
+INFO:engineio.server:5786b8f0702e4dc58aaa186195cbec1e: Received packet MESSAGE data 0/chat
+INFO:socketio.server:5786b8f0702e4dc58aaa186195cbec1e is entering room 52b0f3d8-b71c-430b-80e8-134dee44f945 [/chat]
+INFO:socketio.server:emitting event "status" to 52b0f3d8-b71c-430b-80e8-134dee44f945 [/chat]
+INFO:engineio.server:5786b8f0702e4dc58aaa186195cbec1e: Sending packet MESSAGE data 2/chat,["status",{"type":"Connected","text":"You are connected : 52b0f3d8-b71c-430b-80e8-134dee44f945"}]
+INFO:engineio.server:5786b8f0702e4dc58aaa186195cbec1e: Sending packet MESSAGE data 0/chat
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:44:50] "[37mPOST /socket.io/?EIO=3&transport=polling&t=1574579689253-1&sid=5786b8f0702e4dc58aaa186195cbec1e HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:44:50] "[37mGET /socket.io/?EIO=3&transport=polling&t=1574579689254-2&sid=5786b8f0702e4dc58aaa186195cbec1e HTTP/1.1[0m" 200 -
+INFO:engineio.server:Server initialized for threading.
+WARNING:werkzeug:WebSocket transport not available. Install eventlet or gevent and gevent-websocket for improved performance.
+INFO:werkzeug: * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+INFO:engineio.server:2f11a17b87134dd3934087a92082a175: Sending packet OPEN data {'sid': '2f11a17b87134dd3934087a92082a175', 'upgrades': [], 'pingTimeout': 120000000, 'pingInterval': 2000000}
+INFO:engineio.server:2f11a17b87134dd3934087a92082a175: Sending packet MESSAGE data 0
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:46:47] "[37mGET /socket.io/?EIO=3&transport=polling&t=1574579805709-11 HTTP/1.1[0m" 200 -
+INFO:engineio.server:2f11a17b87134dd3934087a92082a175: Received packet MESSAGE data 0/chat
+INFO:socketio.server:2f11a17b87134dd3934087a92082a175 is entering room 45593cfa-aaf6-4e64-81f1-e29a568c87ae [/chat]
+INFO:socketio.server:emitting event "status" to 45593cfa-aaf6-4e64-81f1-e29a568c87ae [/chat]
+INFO:engineio.server:2f11a17b87134dd3934087a92082a175: Sending packet MESSAGE data 2/chat,["status",{"type":"Connected","text":"You are connected : 45593cfa-aaf6-4e64-81f1-e29a568c87ae"}]
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:46:48] "[37mGET /socket.io/?EIO=3&transport=polling&t=1574579807653-13&sid=2f11a17b87134dd3934087a92082a175 HTTP/1.1[0m" 200 -
+INFO:engineio.server:2f11a17b87134dd3934087a92082a175: Sending packet MESSAGE data 0/chat
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:46:48] "[37mPOST /socket.io/?EIO=3&transport=polling&t=1574579807651-12&sid=2f11a17b87134dd3934087a92082a175 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:46:48] "[37mGET /socket.io/?EIO=3&transport=polling&t=1574579808661-14&sid=2f11a17b87134dd3934087a92082a175 HTTP/1.1[0m" 200 -
+INFO:engineio.server:Server initialized for threading.
+WARNING:werkzeug:WebSocket transport not available. Install eventlet or gevent and gevent-websocket for improved performance.
+INFO:werkzeug: * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+INFO:engineio.server:979afe872fb74fc88e8dd985aab88357: Sending packet OPEN data {'sid': '979afe872fb74fc88e8dd985aab88357', 'upgrades': [], 'pingTimeout': 120000000, 'pingInterval': 2000000}
+INFO:engineio.server:979afe872fb74fc88e8dd985aab88357: Sending packet MESSAGE data 0
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:49:47] "[37mGET /socket.io/?EIO=3&transport=polling&t=1574579983230-17 HTTP/1.1[0m" 200 -
+INFO:engineio.server:979afe872fb74fc88e8dd985aab88357: Received packet MESSAGE data 0/chat
+INFO:socketio.server:979afe872fb74fc88e8dd985aab88357 is entering room 7d00ba3d-d6f5-4d74-ac9d-b6e39c40fce1 [/chat]
+INFO:socketio.server:emitting event "status" to 7d00ba3d-d6f5-4d74-ac9d-b6e39c40fce1 [/chat]
+INFO:engineio.server:979afe872fb74fc88e8dd985aab88357: Sending packet MESSAGE data 2/chat,["status",{"type":"Connected","text":"You are connected : 7d00ba3d-d6f5-4d74-ac9d-b6e39c40fce1"}]
+INFO:engineio.server:979afe872fb74fc88e8dd985aab88357: Sending packet MESSAGE data 0/chat
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:49:48] "[37mGET /socket.io/?EIO=3&transport=polling&t=1574579987030-19&sid=979afe872fb74fc88e8dd985aab88357 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:49:48] "[37mPOST /socket.io/?EIO=3&transport=polling&t=1574579987029-18&sid=979afe872fb74fc88e8dd985aab88357 HTTP/1.1[0m" 200 -
+INFO:engineio.server:3730f74aaede4604959af60916a072dc: Sending packet OPEN data {'sid': '3730f74aaede4604959af60916a072dc', 'upgrades': [], 'pingTimeout': 120000000, 'pingInterval': 2000000}
+INFO:engineio.server:3730f74aaede4604959af60916a072dc: Sending packet MESSAGE data 0
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:49:52] "[37mGET /socket.io/?EIO=3&transport=polling&t=1574579992243-0 HTTP/1.1[0m" 200 -
+INFO:engineio.server:3730f74aaede4604959af60916a072dc: Received packet MESSAGE data 0/chat
+INFO:socketio.server:3730f74aaede4604959af60916a072dc is entering room bbbcb93f-c0de-4095-94c7-7399adba31cf [/chat]
+INFO:socketio.server:emitting event "status" to bbbcb93f-c0de-4095-94c7-7399adba31cf [/chat]
+INFO:engineio.server:3730f74aaede4604959af60916a072dc: Sending packet MESSAGE data 2/chat,["status",{"type":"Connected","text":"You are connected : bbbcb93f-c0de-4095-94c7-7399adba31cf"}]
+INFO:engineio.server:3730f74aaede4604959af60916a072dc: Sending packet MESSAGE data 0/chat
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:49:53] "[37mPOST /socket.io/?EIO=3&transport=polling&t=1574579992291-1&sid=3730f74aaede4604959af60916a072dc HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:49:53] "[37mGET /socket.io/?EIO=3&transport=polling&t=1574579992294-2&sid=3730f74aaede4604959af60916a072dc HTTP/1.1[0m" 200 -
+INFO:engineio.server:4e4d6883cfb046739031ba53f8033534: Sending packet OPEN data {'sid': '4e4d6883cfb046739031ba53f8033534', 'upgrades': [], 'pingTimeout': 120000000, 'pingInterval': 2000000}
+INFO:engineio.server:4e4d6883cfb046739031ba53f8033534: Sending packet MESSAGE data 0
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:49:54] "[37mGET /socket.io/?EIO=3&transport=polling&t=1574579994901-0 HTTP/1.1[0m" 200 -
+INFO:engineio.server:4e4d6883cfb046739031ba53f8033534: Received packet MESSAGE data 0/chat
+INFO:socketio.server:4e4d6883cfb046739031ba53f8033534 is entering room 785b8b1a-6a52-4efe-8e7a-d701c4dcbcbd [/chat]
+INFO:socketio.server:emitting event "status" to 785b8b1a-6a52-4efe-8e7a-d701c4dcbcbd [/chat]
+INFO:engineio.server:4e4d6883cfb046739031ba53f8033534: Sending packet MESSAGE data 2/chat,["status",{"type":"Connected","text":"You are connected : 785b8b1a-6a52-4efe-8e7a-d701c4dcbcbd"}]
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:49:55] "[37mGET /socket.io/?EIO=3&transport=polling&t=1574579994939-2&sid=4e4d6883cfb046739031ba53f8033534 HTTP/1.1[0m" 200 -
+INFO:engineio.server:4e4d6883cfb046739031ba53f8033534: Sending packet MESSAGE data 0/chat
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:49:55] "[37mPOST /socket.io/?EIO=3&transport=polling&t=1574579994935-1&sid=4e4d6883cfb046739031ba53f8033534 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:49:55] "[37mGET /socket.io/?EIO=3&transport=polling&t=1574579995952-3&sid=4e4d6883cfb046739031ba53f8033534 HTTP/1.1[0m" 200 -
+INFO:engineio.server:Server initialized for threading.
+WARNING:werkzeug:WebSocket transport not available. Install eventlet or gevent and gevent-websocket for improved performance.
+INFO:werkzeug: * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+INFO:engineio.server:aae50f26946f4eb8823ab33dedab886c: Sending packet OPEN data {'sid': 'aae50f26946f4eb8823ab33dedab886c', 'upgrades': [], 'pingTimeout': 120000000, 'pingInterval': 2000000}
+INFO:engineio.server:aae50f26946f4eb8823ab33dedab886c: Sending packet MESSAGE data 0
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:51:22] "[37mGET /socket.io/?EIO=3&transport=polling&t=1574580080720-7 HTTP/1.1[0m" 200 -
+INFO:engineio.server:aae50f26946f4eb8823ab33dedab886c: Received packet MESSAGE data 0/chat
+INFO:socketio.server:aae50f26946f4eb8823ab33dedab886c is entering room e353558b-b011-48eb-b987-67b955c250d5 [/chat]
+INFO:socketio.server:emitting event "status" to e353558b-b011-48eb-b987-67b955c250d5 [/chat]
+INFO:engineio.server:aae50f26946f4eb8823ab33dedab886c: Sending packet MESSAGE data 2/chat,["status",{"type":"Connected","text":"You are connected : e353558b-b011-48eb-b987-67b955c250d5"}]
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:51:23] "[37mGET /socket.io/?EIO=3&transport=polling&t=1574580082008-9&sid=aae50f26946f4eb8823ab33dedab886c HTTP/1.1[0m" 200 -
+INFO:engineio.server:aae50f26946f4eb8823ab33dedab886c: Sending packet MESSAGE data 0/chat
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:51:23] "[37mPOST /socket.io/?EIO=3&transport=polling&t=1574580082006-8&sid=aae50f26946f4eb8823ab33dedab886c HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:51:23] "[37mGET /socket.io/?EIO=3&transport=polling&t=1574580083020-10&sid=aae50f26946f4eb8823ab33dedab886c HTTP/1.1[0m" 200 -
+INFO:engineio.server:f6fbe293bb424abfa025f2bd7569058d: Sending packet OPEN data {'sid': 'f6fbe293bb424abfa025f2bd7569058d', 'upgrades': [], 'pingTimeout': 120000000, 'pingInterval': 2000000}
+INFO:engineio.server:f6fbe293bb424abfa025f2bd7569058d: Sending packet MESSAGE data 0
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:51:29] "[37mGET /socket.io/?EIO=3&transport=polling&t=1574580089045-0 HTTP/1.1[0m" 200 -
+INFO:engineio.server:f6fbe293bb424abfa025f2bd7569058d: Received packet MESSAGE data 0/chat
+INFO:socketio.server:f6fbe293bb424abfa025f2bd7569058d is entering room b70e137b-5dbb-4b2a-86be-2c8cc45465d4 [/chat]
+INFO:socketio.server:emitting event "status" to b70e137b-5dbb-4b2a-86be-2c8cc45465d4 [/chat]
+INFO:engineio.server:f6fbe293bb424abfa025f2bd7569058d: Sending packet MESSAGE data 2/chat,["status",{"type":"Connected","text":"You are connected : b70e137b-5dbb-4b2a-86be-2c8cc45465d4"}]
+INFO:engineio.server:f6fbe293bb424abfa025f2bd7569058d: Sending packet MESSAGE data 0/chat
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:51:30] "[37mPOST /socket.io/?EIO=3&transport=polling&t=1574580089083-1&sid=f6fbe293bb424abfa025f2bd7569058d HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:51:30] "[37mGET /socket.io/?EIO=3&transport=polling&t=1574580089084-2&sid=f6fbe293bb424abfa025f2bd7569058d HTTP/1.1[0m" 200 -
+INFO:engineio.server:Server initialized for threading.
+WARNING:werkzeug:WebSocket transport not available. Install eventlet or gevent and gevent-websocket for improved performance.
+INFO:werkzeug: * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+INFO:engineio.server:67cf5b14aefe4e65b0844e089d318c0d: Sending packet OPEN data {'sid': '67cf5b14aefe4e65b0844e089d318c0d', 'upgrades': [], 'pingTimeout': 120000000, 'pingInterval': 2000000}
+INFO:engineio.server:67cf5b14aefe4e65b0844e089d318c0d: Sending packet MESSAGE data 0
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:52:15] "[37mGET /socket.io/?EIO=3&transport=polling&t=1574580132002-6 HTTP/1.1[0m" 200 -
+INFO:engineio.server:67cf5b14aefe4e65b0844e089d318c0d: Received packet MESSAGE data 0/chat
+INFO:socketio.server:67cf5b14aefe4e65b0844e089d318c0d is entering room 5e90e8dc-adc1-4d5c-ba06-8e7920a1dc17 [/chat]
+INFO:socketio.server:emitting event "status" to 5e90e8dc-adc1-4d5c-ba06-8e7920a1dc17 [/chat]
+INFO:engineio.server:67cf5b14aefe4e65b0844e089d318c0d: Sending packet MESSAGE data 2/chat,["status",{"type":"Connected","text":"You are connected : 5e90e8dc-adc1-4d5c-ba06-8e7920a1dc17"}]
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:52:16] "[37mGET /socket.io/?EIO=3&transport=polling&t=1574580135550-8&sid=67cf5b14aefe4e65b0844e089d318c0d HTTP/1.1[0m" 200 -
+INFO:engineio.server:67cf5b14aefe4e65b0844e089d318c0d: Sending packet MESSAGE data 0/chat
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:52:16] "[37mPOST /socket.io/?EIO=3&transport=polling&t=1574580135549-7&sid=67cf5b14aefe4e65b0844e089d318c0d HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:52:16] "[37mGET /socket.io/?EIO=3&transport=polling&t=1574580136561-9&sid=67cf5b14aefe4e65b0844e089d318c0d HTTP/1.1[0m" 200 -
+INFO:engineio.server:ab9bc06724c44e57b3136c8e4b28270a: Sending packet OPEN data {'sid': 'ab9bc06724c44e57b3136c8e4b28270a', 'upgrades': [], 'pingTimeout': 120000000, 'pingInterval': 2000000}
+INFO:engineio.server:ab9bc06724c44e57b3136c8e4b28270a: Sending packet MESSAGE data 0
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:52:22] "[37mGET /socket.io/?EIO=3&transport=polling&t=1574580142135-0 HTTP/1.1[0m" 200 -
+INFO:engineio.server:ab9bc06724c44e57b3136c8e4b28270a: Received packet MESSAGE data 0/chat
+INFO:socketio.server:ab9bc06724c44e57b3136c8e4b28270a is entering room f7098ed7-2af1-4225-ae8d-6729b35f12bb [/chat]
+INFO:socketio.server:emitting event "status" to f7098ed7-2af1-4225-ae8d-6729b35f12bb [/chat]
+INFO:engineio.server:ab9bc06724c44e57b3136c8e4b28270a: Sending packet MESSAGE data 2/chat,["status",{"type":"Connected","text":"You are connected : f7098ed7-2af1-4225-ae8d-6729b35f12bb"}]
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:52:23] "[37mGET /socket.io/?EIO=3&transport=polling&t=1574580142180-2&sid=ab9bc06724c44e57b3136c8e4b28270a HTTP/1.1[0m" 200 -
+INFO:engineio.server:ab9bc06724c44e57b3136c8e4b28270a: Sending packet MESSAGE data 0/chat
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:52:23] "[37mPOST /socket.io/?EIO=3&transport=polling&t=1574580142164-1&sid=ab9bc06724c44e57b3136c8e4b28270a HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:52:23] "[37mGET /socket.io/?EIO=3&transport=polling&t=1574580143184-3&sid=ab9bc06724c44e57b3136c8e4b28270a HTTP/1.1[0m" 200 -
+INFO:engineio.server:95c706326f7449b79e820e7901ce2c29: Sending packet OPEN data {'sid': '95c706326f7449b79e820e7901ce2c29', 'upgrades': [], 'pingTimeout': 120000000, 'pingInterval': 2000000}
+INFO:engineio.server:95c706326f7449b79e820e7901ce2c29: Sending packet MESSAGE data 0
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:52:28] "[37mGET /socket.io/?EIO=3&transport=polling&t=1574580148625-0 HTTP/1.1[0m" 200 -
+INFO:engineio.server:95c706326f7449b79e820e7901ce2c29: Received packet MESSAGE data 0/chat
+INFO:socketio.server:95c706326f7449b79e820e7901ce2c29 is entering room 22d24051-46d7-42fb-9f7e-1fd667c15e2b [/chat]
+INFO:socketio.server:emitting event "status" to 22d24051-46d7-42fb-9f7e-1fd667c15e2b [/chat]
+INFO:engineio.server:95c706326f7449b79e820e7901ce2c29: Sending packet MESSAGE data 2/chat,["status",{"type":"Connected","text":"You are connected : 22d24051-46d7-42fb-9f7e-1fd667c15e2b"}]
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:52:29] "[37mGET /socket.io/?EIO=3&transport=polling&t=1574580148672-2&sid=95c706326f7449b79e820e7901ce2c29 HTTP/1.1[0m" 200 -
+INFO:engineio.server:95c706326f7449b79e820e7901ce2c29: Sending packet MESSAGE data 0/chat
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:52:29] "[37mPOST /socket.io/?EIO=3&transport=polling&t=1574580148667-1&sid=95c706326f7449b79e820e7901ce2c29 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:52:29] "[37mGET /socket.io/?EIO=3&transport=polling&t=1574580149679-3&sid=95c706326f7449b79e820e7901ce2c29 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:54:01] "[1m[35mGET / HTTP/1.1[0m" 500 -
+ERROR:werkzeug:Error on request:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/werkzeug/serving.py", line 303, in run_wsgi
+    execute(self.server.app)
+  File "/usr/local/lib/python3.7/site-packages/werkzeug/serving.py", line 291, in execute
+    application_iter = app(environ, start_response)
+  File "/usr/local/lib/python3.7/site-packages/flask/app.py", line 2463, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.7/site-packages/flask_socketio/__init__.py", line 46, in __call__
+    start_response)
+  File "/usr/local/lib/python3.7/site-packages/engineio/middleware.py", line 74, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.7/site-packages/flask/app.py", line 2449, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.7/site-packages/flask_restful/__init__.py", line 269, in error_router
+    return original_handler(e)
+  File "/usr/local/lib/python3.7/site-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.7/site-packages/flask/app.py", line 1866, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/usr/local/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.7/site-packages/flask_restful/__init__.py", line 269, in error_router
+    return original_handler(e)
+  File "/usr/local/lib/python3.7/site-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/usr/local/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/usr/local/var/www/pmi-chatbot/api/controller/routes.py", line 9, in index
+    return render_template('index.html')
+  File "/usr/local/lib/python3.7/site-packages/flask/templating.py", line 140, in render_template
+    ctx.app,
+  File "/usr/local/lib/python3.7/site-packages/flask/templating.py", line 120, in _render
+    rv = template.render(context)
+  File "/usr/local/lib/python3.7/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/usr/local/lib/python3.7/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.7/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/usr/local/var/www/pmi-chatbot/api/templates/index.html", line 8, in top-level template code
+    {{ form.hidden_tag() }}
+  File "/usr/local/lib/python3.7/site-packages/jinja2/environment.py", line 430, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'form' is undefined
+INFO:engineio.server:Server initialized for threading.
+WARNING:werkzeug:WebSocket transport not available. Install eventlet or gevent and gevent-websocket for improved performance.
+INFO:werkzeug: * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:58:33] "[1m[35mGET / HTTP/1.1[0m" 500 -
+ERROR:werkzeug:Error on request:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/werkzeug/serving.py", line 303, in run_wsgi
+    execute(self.server.app)
+  File "/usr/local/lib/python3.7/site-packages/werkzeug/serving.py", line 291, in execute
+    application_iter = app(environ, start_response)
+  File "/usr/local/lib/python3.7/site-packages/flask/app.py", line 2463, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.7/site-packages/flask_socketio/__init__.py", line 46, in __call__
+    start_response)
+  File "/usr/local/lib/python3.7/site-packages/engineio/middleware.py", line 74, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.7/site-packages/flask/app.py", line 2449, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.7/site-packages/flask_restful/__init__.py", line 269, in error_router
+    return original_handler(e)
+  File "/usr/local/lib/python3.7/site-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.7/site-packages/flask/app.py", line 1866, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/usr/local/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.7/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/usr/local/lib/python3.7/site-packages/flask/app.py", line 1967, in finalize_request
+    response = self.make_response(rv)
+  File "/usr/local/lib/python3.7/site-packages/flask/app.py", line 2097, in make_response
+    "The view function did not return a valid response. The"
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+INFO:engineio.server:73a594bbe0854572bae1d80686eb4982: Sending packet OPEN data {'sid': '73a594bbe0854572bae1d80686eb4982', 'upgrades': [], 'pingTimeout': 120000000, 'pingInterval': 2000000}
+INFO:engineio.server:73a594bbe0854572bae1d80686eb4982: Sending packet MESSAGE data 0
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:58:34] "[37mGET /socket.io/?EIO=3&transport=polling&t=1574580511237-32 HTTP/1.1[0m" 200 -
+INFO:engineio.server:73a594bbe0854572bae1d80686eb4982: Received packet MESSAGE data 0/chat
+INFO:socketio.server:73a594bbe0854572bae1d80686eb4982 is entering room 83254f30-c736-4aac-bff6-ba20d712c7cc [/chat]
+INFO:socketio.server:emitting event "status" to 83254f30-c736-4aac-bff6-ba20d712c7cc [/chat]
+INFO:engineio.server:73a594bbe0854572bae1d80686eb4982: Sending packet MESSAGE data 2/chat,["status",{"type":"Connected","text":"You are connected : 83254f30-c736-4aac-bff6-ba20d712c7cc"}]
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:58:35] "[37mGET /socket.io/?EIO=3&transport=polling&t=1574580514784-34&sid=73a594bbe0854572bae1d80686eb4982 HTTP/1.1[0m" 200 -
+INFO:engineio.server:73a594bbe0854572bae1d80686eb4982: Sending packet MESSAGE data 0/chat
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:58:35] "[37mPOST /socket.io/?EIO=3&transport=polling&t=1574580514782-33&sid=73a594bbe0854572bae1d80686eb4982 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:58:35] "[37mGET /socket.io/?EIO=3&transport=polling&t=1574580515805-35&sid=73a594bbe0854572bae1d80686eb4982 HTTP/1.1[0m" 200 -
+INFO:engineio.server:Server initialized for threading.
+WARNING:werkzeug:WebSocket transport not available. Install eventlet or gevent and gevent-websocket for improved performance.
+INFO:werkzeug: * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:59:00] "[1m[35mGET /test HTTP/1.1[0m" 500 -
+ERROR:werkzeug:Error on request:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/werkzeug/serving.py", line 303, in run_wsgi
+    execute(self.server.app)
+  File "/usr/local/lib/python3.7/site-packages/werkzeug/serving.py", line 291, in execute
+    application_iter = app(environ, start_response)
+  File "/usr/local/lib/python3.7/site-packages/flask/app.py", line 2463, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.7/site-packages/flask_socketio/__init__.py", line 46, in __call__
+    start_response)
+  File "/usr/local/lib/python3.7/site-packages/engineio/middleware.py", line 74, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.7/site-packages/flask/app.py", line 2449, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.7/site-packages/flask_restful/__init__.py", line 269, in error_router
+    return original_handler(e)
+  File "/usr/local/lib/python3.7/site-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.7/site-packages/flask/app.py", line 1866, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/usr/local/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.7/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/usr/local/lib/python3.7/site-packages/flask/app.py", line 1967, in finalize_request
+    response = self.make_response(rv)
+  File "/usr/local/lib/python3.7/site-packages/flask/app.py", line 2097, in make_response
+    "The view function did not return a valid response. The"
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+INFO:engineio.server:c246cbbf1d0d4c3a979f44148053f6af: Sending packet OPEN data {'sid': 'c246cbbf1d0d4c3a979f44148053f6af', 'upgrades': [], 'pingTimeout': 120000000, 'pingInterval': 2000000}
+INFO:engineio.server:c246cbbf1d0d4c3a979f44148053f6af: Sending packet MESSAGE data 0
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:59:01] "[37mGET /socket.io/?EIO=3&transport=polling&t=1574580534418-38 HTTP/1.1[0m" 200 -
+INFO:engineio.server:c246cbbf1d0d4c3a979f44148053f6af: Received packet MESSAGE data 0/chat
+INFO:socketio.server:c246cbbf1d0d4c3a979f44148053f6af is entering room 732b0e8a-07d4-43bd-a6c6-25896e0b12e7 [/chat]
+INFO:socketio.server:emitting event "status" to 732b0e8a-07d4-43bd-a6c6-25896e0b12e7 [/chat]
+INFO:engineio.server:c246cbbf1d0d4c3a979f44148053f6af: Sending packet MESSAGE data 2/chat,["status",{"type":"Connected","text":"You are connected : 732b0e8a-07d4-43bd-a6c6-25896e0b12e7"}]
+INFO:engineio.server:c246cbbf1d0d4c3a979f44148053f6af: Sending packet MESSAGE data 0/chat
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:59:02] "[37mPOST /socket.io/?EIO=3&transport=polling&t=1574580541201-39&sid=c246cbbf1d0d4c3a979f44148053f6af HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:59:02] "[37mGET /socket.io/?EIO=3&transport=polling&t=1574580541202-40&sid=c246cbbf1d0d4c3a979f44148053f6af HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:59:12] "[1m[35mGET /test HTTP/1.1[0m" 500 -
+ERROR:werkzeug:Error on request:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/werkzeug/serving.py", line 303, in run_wsgi
+    execute(self.server.app)
+  File "/usr/local/lib/python3.7/site-packages/werkzeug/serving.py", line 291, in execute
+    application_iter = app(environ, start_response)
+  File "/usr/local/lib/python3.7/site-packages/flask/app.py", line 2463, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.7/site-packages/flask_socketio/__init__.py", line 46, in __call__
+    start_response)
+  File "/usr/local/lib/python3.7/site-packages/engineio/middleware.py", line 74, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.7/site-packages/flask/app.py", line 2449, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.7/site-packages/flask_restful/__init__.py", line 269, in error_router
+    return original_handler(e)
+  File "/usr/local/lib/python3.7/site-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.7/site-packages/flask/app.py", line 1866, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/usr/local/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.7/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/usr/local/lib/python3.7/site-packages/flask/app.py", line 1967, in finalize_request
+    response = self.make_response(rv)
+  File "/usr/local/lib/python3.7/site-packages/flask/app.py", line 2097, in make_response
+    "The view function did not return a valid response. The"
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:59:13] "[1m[35mGET /test HTTP/1.1[0m" 500 -
+ERROR:werkzeug:Error on request:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/werkzeug/serving.py", line 303, in run_wsgi
+    execute(self.server.app)
+  File "/usr/local/lib/python3.7/site-packages/werkzeug/serving.py", line 291, in execute
+    application_iter = app(environ, start_response)
+  File "/usr/local/lib/python3.7/site-packages/flask/app.py", line 2463, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.7/site-packages/flask_socketio/__init__.py", line 46, in __call__
+    start_response)
+  File "/usr/local/lib/python3.7/site-packages/engineio/middleware.py", line 74, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.7/site-packages/flask/app.py", line 2449, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.7/site-packages/flask_restful/__init__.py", line 269, in error_router
+    return original_handler(e)
+  File "/usr/local/lib/python3.7/site-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.7/site-packages/flask/app.py", line 1866, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/usr/local/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.7/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/usr/local/lib/python3.7/site-packages/flask/app.py", line 1967, in finalize_request
+    response = self.make_response(rv)
+  File "/usr/local/lib/python3.7/site-packages/flask/app.py", line 2097, in make_response
+    "The view function did not return a valid response. The"
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 12:59:30] "[1m[35mGET / HTTP/1.1[0m" 500 -
+ERROR:werkzeug:Error on request:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/werkzeug/serving.py", line 303, in run_wsgi
+    execute(self.server.app)
+  File "/usr/local/lib/python3.7/site-packages/werkzeug/serving.py", line 291, in execute
+    application_iter = app(environ, start_response)
+  File "/usr/local/lib/python3.7/site-packages/flask/app.py", line 2463, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.7/site-packages/flask_socketio/__init__.py", line 46, in __call__
+    start_response)
+  File "/usr/local/lib/python3.7/site-packages/engineio/middleware.py", line 74, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.7/site-packages/flask/app.py", line 2449, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.7/site-packages/flask_restful/__init__.py", line 269, in error_router
+    return original_handler(e)
+  File "/usr/local/lib/python3.7/site-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.7/site-packages/flask/app.py", line 1866, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/usr/local/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.7/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/usr/local/lib/python3.7/site-packages/flask/app.py", line 1969, in finalize_request
+    response = self.process_response(response)
+  File "/usr/local/lib/python3.7/site-packages/flask/app.py", line 2268, in process_response
+    self.session_interface.save_session(self, ctx.session, response)
+  File "/usr/local/lib/python3.7/site-packages/flask_session/sessions.py", line 442, in save_session
+    'expiration': expires}, True)
+  File "/usr/local/lib/python3.7/site-packages/pymongo/collection.py", line 3215, in update
+    write_concern, collation=collation)
+  File "/usr/local/lib/python3.7/site-packages/pymongo/collection.py", line 856, in _update_retryable
+    _update, session)
+  File "/usr/local/lib/python3.7/site-packages/pymongo/mongo_client.py", line 1491, in _retryable_write
+    with self._tmp_session(session) as s:
+  File "/usr/local/Cellar/python/3.7.2_2/Frameworks/Python.framework/Versions/3.7/lib/python3.7/contextlib.py", line 112, in __enter__
+    return next(self.gen)
+  File "/usr/local/lib/python3.7/site-packages/pymongo/mongo_client.py", line 1820, in _tmp_session
+    s = self._ensure_session(session)
+  File "/usr/local/lib/python3.7/site-packages/pymongo/mongo_client.py", line 1807, in _ensure_session
+    return self.__start_session(True, causal_consistency=False)
+  File "/usr/local/lib/python3.7/site-packages/pymongo/mongo_client.py", line 1760, in __start_session
+    server_session = self._get_server_session()
+  File "/usr/local/lib/python3.7/site-packages/pymongo/mongo_client.py", line 1793, in _get_server_session
+    return self._topology.get_server_session()
+  File "/usr/local/lib/python3.7/site-packages/pymongo/topology.py", line 477, in get_server_session
+    None)
+  File "/usr/local/lib/python3.7/site-packages/pymongo/topology.py", line 205, in _select_servers_loop
+    self._error_message(selector))
+pymongo.errors.ServerSelectionTimeoutError: localhost:27017: [Errno 61] Connection refused
+INFO:engineio.server:Server initialized for threading.
+WARNING:werkzeug:WebSocket transport not available. Install eventlet or gevent and gevent-websocket for improved performance.
+INFO:werkzeug: * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+INFO:engineio.server:2dca2ac673754f59b56c427d909e2d06: Sending packet OPEN data {'sid': '2dca2ac673754f59b56c427d909e2d06', 'upgrades': [], 'pingTimeout': 120000000, 'pingInterval': 2000000}
+INFO:engineio.server:2dca2ac673754f59b56c427d909e2d06: Sending packet MESSAGE data 0
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 13:01:21] "[37mGET /socket.io/?EIO=3&transport=polling&t=1574580679748-0 HTTP/1.1[0m" 200 -
+INFO:engineio.server:2dca2ac673754f59b56c427d909e2d06: Received packet MESSAGE data 0/chat
+INFO:socketio.server:2dca2ac673754f59b56c427d909e2d06 is entering room 5f65de6c-e2af-4265-95d4-31d5625ad5d4 [/chat]
+INFO:socketio.server:emitting event "status" to 5f65de6c-e2af-4265-95d4-31d5625ad5d4 [/chat]
+INFO:engineio.server:2dca2ac673754f59b56c427d909e2d06: Sending packet MESSAGE data 2/chat,["status",{"type":"Connected","text":"You are connected : 5f65de6c-e2af-4265-95d4-31d5625ad5d4"}]
+INFO:engineio.server:2dca2ac673754f59b56c427d909e2d06: Sending packet MESSAGE data 0/chat
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 13:01:22] "[37mPOST /socket.io/?EIO=3&transport=polling&t=1574580681672-1&sid=2dca2ac673754f59b56c427d909e2d06 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 13:01:22] "[37mGET /socket.io/?EIO=3&transport=polling&t=1574580681674-2&sid=2dca2ac673754f59b56c427d909e2d06 HTTP/1.1[0m" 200 -
+INFO:engineio.server:e39483b7d6dc441a95de7a0398798d46: Sending packet OPEN data {'sid': 'e39483b7d6dc441a95de7a0398798d46', 'upgrades': [], 'pingTimeout': 120000000, 'pingInterval': 2000000}
+INFO:engineio.server:e39483b7d6dc441a95de7a0398798d46: Sending packet MESSAGE data 0
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 13:01:25] "[37mGET /socket.io/?EIO=3&transport=polling&t=1574580685707-0 HTTP/1.1[0m" 200 -
+INFO:engineio.server:e39483b7d6dc441a95de7a0398798d46: Received packet MESSAGE data 0/chat
+INFO:socketio.server:e39483b7d6dc441a95de7a0398798d46 is entering room a570d930-dfde-4a70-bc7a-f59c71dac86b [/chat]
+INFO:socketio.server:emitting event "status" to a570d930-dfde-4a70-bc7a-f59c71dac86b [/chat]
+INFO:engineio.server:e39483b7d6dc441a95de7a0398798d46: Sending packet MESSAGE data 2/chat,["status",{"type":"Connected","text":"You are connected : a570d930-dfde-4a70-bc7a-f59c71dac86b"}]
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 13:01:26] "[37mGET /socket.io/?EIO=3&transport=polling&t=1574580685739-2&sid=e39483b7d6dc441a95de7a0398798d46 HTTP/1.1[0m" 200 -
+INFO:engineio.server:e39483b7d6dc441a95de7a0398798d46: Sending packet MESSAGE data 0/chat
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 13:01:26] "[37mPOST /socket.io/?EIO=3&transport=polling&t=1574580685738-1&sid=e39483b7d6dc441a95de7a0398798d46 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 13:01:26] "[37mGET /socket.io/?EIO=3&transport=polling&t=1574580686759-3&sid=e39483b7d6dc441a95de7a0398798d46 HTTP/1.1[0m" 200 -
+INFO:engineio.server:Server initialized for threading.
+WARNING:werkzeug:WebSocket transport not available. Install eventlet or gevent and gevent-websocket for improved performance.
+INFO:werkzeug: * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+INFO:engineio.server:c7f4be50a81a4c68809cab4fa833a3fe: Sending packet OPEN data {'sid': 'c7f4be50a81a4c68809cab4fa833a3fe', 'upgrades': [], 'pingTimeout': 120000000, 'pingInterval': 2000000}
+INFO:engineio.server:c7f4be50a81a4c68809cab4fa833a3fe: Sending packet MESSAGE data 0
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 13:02:26] "[37mGET /socket.io/?EIO=3&transport=polling&t=1574580746898-0 HTTP/1.1[0m" 200 -
+INFO:engineio.server:c7f4be50a81a4c68809cab4fa833a3fe: Received packet MESSAGE data 0/chat
+INFO:engineio.server:c7f4be50a81a4c68809cab4fa833a3fe: Sending packet MESSAGE data 0/chat
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 13:02:26] "[37mPOST /socket.io/?EIO=3&transport=polling&t=1574580746927-1&sid=c7f4be50a81a4c68809cab4fa833a3fe HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 13:02:26] "[37mGET /socket.io/?EIO=3&transport=polling&t=1574580746929-2&sid=c7f4be50a81a4c68809cab4fa833a3fe HTTP/1.1[0m" 200 -
+INFO:engineio.server:d9216aabb29740ff9fdb60fb4b24fc97: Sending packet OPEN data {'sid': 'd9216aabb29740ff9fdb60fb4b24fc97', 'upgrades': [], 'pingTimeout': 120000000, 'pingInterval': 2000000}
+INFO:engineio.server:d9216aabb29740ff9fdb60fb4b24fc97: Sending packet MESSAGE data 0
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 13:02:28] "[37mGET /socket.io/?EIO=3&transport=polling&t=1574580748856-0 HTTP/1.1[0m" 200 -
+INFO:engineio.server:d9216aabb29740ff9fdb60fb4b24fc97: Received packet MESSAGE data 0/chat
+INFO:engineio.server:d9216aabb29740ff9fdb60fb4b24fc97: Sending packet MESSAGE data 0/chat
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 13:02:28] "[37mPOST /socket.io/?EIO=3&transport=polling&t=1574580748875-1&sid=d9216aabb29740ff9fdb60fb4b24fc97 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 13:02:28] "[37mGET /socket.io/?EIO=3&transport=polling&t=1574580748877-2&sid=d9216aabb29740ff9fdb60fb4b24fc97 HTTP/1.1[0m" 200 -
+INFO:engineio.server:Server initialized for threading.
+WARNING:werkzeug:WebSocket transport not available. Install eventlet or gevent and gevent-websocket for improved performance.
+INFO:werkzeug: * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+INFO:engineio.server:bb5272573b32460987ddab1e41d0351f: Sending packet OPEN data {'sid': 'bb5272573b32460987ddab1e41d0351f', 'upgrades': [], 'pingTimeout': 120000000, 'pingInterval': 2000000}
+INFO:engineio.server:bb5272573b32460987ddab1e41d0351f: Sending packet MESSAGE data 0
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 13:02:57] "[37mGET /socket.io/?EIO=3&transport=polling&t=1574580774481-0 HTTP/1.1[0m" 200 -
+INFO:engineio.server:bb5272573b32460987ddab1e41d0351f: Received packet MESSAGE data 0/chat
+INFO:socketio.server:bb5272573b32460987ddab1e41d0351f is entering room 6ca03bc3-14fd-4845-bef0-68649728fecb [/chat]
+INFO:socketio.server:emitting event "status" to 6ca03bc3-14fd-4845-bef0-68649728fecb [/chat]
+INFO:engineio.server:bb5272573b32460987ddab1e41d0351f: Sending packet MESSAGE data 2/chat,["status",{"type":"Connected","text":"You are connected : 6ca03bc3-14fd-4845-bef0-68649728fecb"}]
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 13:02:58] "[37mGET /socket.io/?EIO=3&transport=polling&t=1574580777354-2&sid=bb5272573b32460987ddab1e41d0351f HTTP/1.1[0m" 200 -
+INFO:engineio.server:bb5272573b32460987ddab1e41d0351f: Sending packet MESSAGE data 0/chat
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 13:02:58] "[37mPOST /socket.io/?EIO=3&transport=polling&t=1574580777352-1&sid=bb5272573b32460987ddab1e41d0351f HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 13:02:58] "[37mGET /socket.io/?EIO=3&transport=polling&t=1574580778365-3&sid=bb5272573b32460987ddab1e41d0351f HTTP/1.1[0m" 200 -
+INFO:engineio.server:59b7efbb3e2240fc9cf646d86db5c070: Sending packet OPEN data {'sid': '59b7efbb3e2240fc9cf646d86db5c070', 'upgrades': [], 'pingTimeout': 120000000, 'pingInterval': 2000000}
+INFO:engineio.server:59b7efbb3e2240fc9cf646d86db5c070: Sending packet MESSAGE data 0
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 13:03:01] "[37mGET /socket.io/?EIO=3&transport=polling&t=1574580781419-0 HTTP/1.1[0m" 200 -
+INFO:engineio.server:59b7efbb3e2240fc9cf646d86db5c070: Received packet MESSAGE data 0/chat
+INFO:socketio.server:59b7efbb3e2240fc9cf646d86db5c070 is entering room 7c3ca1be-85f9-4729-9d28-2b1dcf2498a2 [/chat]
+INFO:socketio.server:emitting event "status" to 7c3ca1be-85f9-4729-9d28-2b1dcf2498a2 [/chat]
+INFO:engineio.server:59b7efbb3e2240fc9cf646d86db5c070: Sending packet MESSAGE data 2/chat,["status",{"type":"Connected","text":"You are connected : 7c3ca1be-85f9-4729-9d28-2b1dcf2498a2"}]
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 13:03:02] "[37mGET /socket.io/?EIO=3&transport=polling&t=1574580781457-2&sid=59b7efbb3e2240fc9cf646d86db5c070 HTTP/1.1[0m" 200 -
+INFO:engineio.server:59b7efbb3e2240fc9cf646d86db5c070: Sending packet MESSAGE data 0/chat
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 13:03:02] "[37mPOST /socket.io/?EIO=3&transport=polling&t=1574580781455-1&sid=59b7efbb3e2240fc9cf646d86db5c070 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2019 13:03:02] "[37mGET /socket.io/?EIO=3&transport=polling&t=1574580782470-3&sid=59b7efbb3e2240fc9cf646d86db5c070 HTTP/1.1[0m" 200 -

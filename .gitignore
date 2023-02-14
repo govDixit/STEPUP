@@ -1,0 +1,11 @@
+/liveApi25Feb2021/*
+/newApi/*
+__pycache__/
+env/
+myenv/
+/liveApi/uploads/*
+/liveApi/download/*
+/*.log
+/liveApi/*.log
+
+Pipfile

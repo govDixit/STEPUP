@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Chat</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="http://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+<link href="{{url_for('static', filename='chat.css') }}?v=1" rel="stylesheet" >
+
+        
+<!-- Chrome, Firefox OS and Opera -->
+<meta name="theme-color" content="#ba1928">
+<!-- Windows Phone -->
+<meta name="msapplication-navbutton-color" content="#ba1928">
+<!-- iOS Safari -->
+<meta name="apple-mobile-web-app-status-bar-style" content="#ba1928">
+
+
+        
+</head>
+<body>
+<div class="container-fluid">
+  <div class="row justify-content-center">
+    <div class="col-sm-12 col-md-6 col-xl-6 chat margin-left-right">
+      <div class="card">
+        <div class="card-header msg_head">
+          <div class="d-flex bd-highlight">
+            <!-- <div class="img_cont"> <img src="default.png" class="rounded-circle user_img"> <span class="online_icon"></span> </div>  -->
+            <div class="user_info"> <span>Chat</span>
+              <p>Messages</p>
+            </div>
+          </div>
+          
+        </div>
+        
+        <div class="card-header msg_head" id="connecting" style="background: #c7c7c7;text-align: center;">Connecting.......</div>
+        
+        <div class="card-body msg_card_body">
+          
+        </div>
+        <div class="card-footer">
+        
+        
+          <div class="input-group" id="input-box">
+            <div class="input-group-append"> </div>
+            <input id="text" type="text" name="" class="form-control type_msg" placeholder="Type your message..." autocomplete="off">
+            <div class="input-group-append" id="sendText"> <span class="input-group-text send_btn"><i class="fas fa-location-arrow"></i></span> </div>
+          </div>
+			
+		 <div class="input-group" id="select-box" style="display:none;">
+            <div class="input-group-append"> </div>
+            <select class="custom-select">
+				<option>Option 1</option> 
+				<option>Option 2</option> 
+				<option>Option 3</option> 
+				<option>Option 4</option>
+			</select>
+            <div class="input-group-append" id="sendOption"> <span class="input-group-text send_btn"><i class="fas fa-location-arrow"></i></span> </div>
+          </div>		
+          
+          	
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.js"></script>
+
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/socket.io/1.3.6/socket.io.min.js"></script>
+
+<script>
+(function($){
+	//alert($('.card').height());
+        $(window).on("load",function(){
+			$('.card') .css({'height': (($(window).height()) - 0)+'px'});
+            $(".msg_card_body, .contacts_body").mCustomScrollbar();
+            $(".msg_card_body, .contacts_body").mCustomScrollbar("update");
+            $(".msg_card_body, .contacts_body").mCustomScrollbar("scrollTo", "bottom");
+        });
+    })(jQuery);
+</script>
+
+
+
+<script type="text/javascript" charset="utf-8">
+		function create_UUID(){
+		    var dt = new Date().getTime();
+		    var uuid = 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
+		        var r = (dt + Math.random()*16)%16 | 0;
+		        dt = Math.floor(dt/16);
+		        return (c=='x' ? r :(r&0x3|0x8)).toString(16);
+		    });
+		    return uuid;
+		}
+		
+		function getDateTime()
+		{
+		    	var today = new Date();
+		    	var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
+		    	var time = today.getHours() + ":" + today.getMinutes();
+		    	return date+' '+time;
+		}
+		
+		function getTime()
+		{
+		    	var today = new Date();
+		    	var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
+		    	var time = today.toLocaleString('en-US', { hour: 'numeric',minute:'numeric', hour12: true })
+		    	//return date+' '+time;
+		    	return time+ ', Today';
+		}
+
+         var socket;
+         var lastQuestion;
+         var connection = false;
+         var answer = false;
+         
+         $(document).ready(function($){
+             socket = io.connect('http://13.233.220.57:5005');
+             socket.on('connect', function() {
+            	 	connection = true;
+            	 	$('#connecting').hide();
+                 console.log("connected.....")
+             });
+             socket.on('disconnect', function() {
+            	 	connection = false;
+         	 	$('#connecting').show();
+              	console.log("disconnected.....")
+          	});
+             socket.on('status', function(data) {
+                 console.log(data);
+             });
+             socket.on('message', function(data) {
+            	 	 lastQuestion = data.question.label;
+            	 	 answer = true;
+            	 	 if(data.question.type == "select"){
+            	 		$("#input-box").hide();
+            	 		$("#select-box").show();
+            	 		$(".custom-select").html('');
+            	 		$.each(data.question.options, function(key, item) 
+    	 				{
+            	 			$(".custom-select").append('<option>'+item+'</option>');
+    	 				});
+            	 	 }
+            	 	 else{
+            	 		$("#input-box").show();
+            	 		$("#select-box").hide();
+            	 	 }
+            	 		 
+            	 		
+            	 	 
+	            	 msg = '<div class="d-flex justify-content-start mb-4">'+
+	            	 	 '<div class="img_cont_msg"> <img src="/static/default.png" class="rounded-circle user_img_msg mCS_img_loaded"> </div>'+
+	                 '<div class="msg_cotainer">'+ data.question.label +'<span class="msg_time_send">'+data.sent_at+'</span> </div>'+
+	                
+	               '</div>';
+	             
+	             $('#mCSB_1_container').append(msg);
+	             $(".msg_card_body, .contacts_body").mCustomScrollbar("update");
+	             $(".msg_card_body, .contacts_body").mCustomScrollbar("scrollTo", "bottom");
+             });
+             $('#text').keypress(function(e) {
+                 var code = e.keyCode || e.which;
+                 if (code == 13 && connection == true && answer == true) {
+                     text = $('#text').val();
+                     $('#text').val('');
+                     
+                     msg = '<div class="d-flex justify-content-end mb-4">'+
+                         '<div class="msg_cotainer_send">'+ text +'<span class="msg_time_send">'+getTime()+'</span> </div>'+
+                         '<div class="img_cont_msg"> <img src="/static/chatperson.png" class="rounded-circle user_img_msg mCS_img_loaded"> </div>'+
+                       '</div>';
+                     
+                     $('#mCSB_1_container').append(msg);
+                     $(".msg_card_body, .contacts_body").mCustomScrollbar("update");
+                     $(".msg_card_body, .contacts_body").mCustomScrollbar("scrollTo", "bottom");
+                     socket.emit('message', {"messageId":create_UUID(),"text": text,"question":lastQuestion,"sent_at":getDateTime()});
+                     answer = false;
+                 }
+             });
+             
+             $('#sendText').click(function(e) {
+                 text = $('#text').val();
+                 if (connection == true && answer == true) {
+	                 $('#text').val('');
+	                
+	                 msg = '<div class="d-flex justify-content-end mb-4">'+
+	                 	'<div class="msg_cotainer_send">'+ text +'<span class="msg_time_send">'+getTime()+'</span> </div>'+
+	                 	'<div class="img_cont_msg"> <img src="/static/chatperson.png" class="rounded-circle user_img_msg mCS_img_loaded"> </div>'+
+	               	'</div>';
+	             
+	                 $('#mCSB_1_container').append(msg);
+	                 $(".msg_card_body, .contacts_body").mCustomScrollbar("update");
+	                 $(".msg_card_body, .contacts_body").mCustomScrollbar("scrollTo", "bottom");
+	             
+	                 socket.emit('message', {"messageId":create_UUID(),"text": text,"question":lastQuestion,"sent_at":getDateTime()});
+	                 answer = false;
+                 }
+             });
+             
+             
+             $('#sendOption').click(function(e) {
+                 text = $('.custom-select').val();
+                 if (connection == true && answer == true) {
+	                 $('#text').val('');
+	                
+	                 msg = '<div class="d-flex justify-content-end mb-4">'+
+	                 	'<div class="msg_cotainer_send">'+ text +'<span class="msg_time_send">'+getTime()+'</span> </div>'+
+	                 	'<div class="img_cont_msg"> <img src="/static/chatperson.png" class="rounded-circle user_img_msg mCS_img_loaded"> </div>'+
+	               	'</div>';
+	             
+	                 $('#mCSB_1_container').append(msg);
+	                 $(".msg_card_body, .contacts_body").mCustomScrollbar("update");
+	                 $(".msg_card_body, .contacts_body").mCustomScrollbar("scrollTo", "bottom");
+	             
+	                 socket.emit('message', {"messageId":create_UUID(),"text": text,"question":lastQuestion,"sent_at":getDateTime()});
+	                 answer = false;
+                 }
+             });
+         });
+         
+</script>
+</body>
+</html>

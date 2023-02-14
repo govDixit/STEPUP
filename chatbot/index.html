@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Chat</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="http://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+<link href="chat.css?v=2" rel="stylesheet" >
+<script type="text/javascript" src="//code.jquery.com/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/socket.io/1.3.6/socket.io.min.js"></script>
+        
+<!-- Chrome, Firefox OS and Opera -->
+<meta name="theme-color" content="#ba1928">
+<!-- Windows Phone -->
+<meta name="msapplication-navbutton-color" content="#ba1928">
+<!-- iOS Safari -->
+<meta name="apple-mobile-web-app-status-bar-style" content="#ba1928">
+
+
+<script type="text/javascript" charset="utf-8">
+            var socket;
+            var connection = false;
+            $(document).ready(function(){
+                socket = io.connect('http://localhost:5001/chat');
+                socket.on('connect', function() {
+                		connection = true;
+                		$('#connecting').hide();
+                    console.log("disconnected.....")
+                });
+                socket.on('disconnect', function() {
+                		connection = false;
+             	 	$('#connecting').show();
+                  	console.log("disconnected.....")
+              	});
+                socket.on('status', function(data) {
+                    console.log(data);
+                });
+                socket.on('message', function(data) {
+                    $('#chat').val($('#chat').val() + data.msg + '\n');
+                    $('#chat').scrollTop($('#chat')[0].scrollHeight);
+                });
+                $('#text').keypress(function(e) {
+                    var code = e.keyCode || e.which;
+                    if (code == 13) {
+                        text = $('#text').val();
+                        $('#text').val('');
+                        socket.emit('text', {msg: text});
+                    }
+                });
+            });
+            function leave_room() {
+                socket.emit('left', {}, function() {
+                    socket.disconnect();
+
+                    // go back to the login page
+                    window.location.href = "{{ url_for('main.index') }}";
+                });
+            }
+        </script>
+        
+</head>
+<body>
+<div class="container-fluid">
+  <div class="row justify-content-center">
+    <div class="col-sm-12 col-md-6 col-xl-6 chat margin-left-right">
+      <div class="card">
+        <div class="card-header msg_head">
+          <div class="d-flex bd-highlight">
+            <!-- <div class="img_cont"> <img src="default.png" class="rounded-circle user_img"> <span class="online_icon"></span> </div>  -->
+            <div class="user_info"> <span>Chat</span> 
+              <p>5 Messages</p>
+            </div>
+          </div>
+          
+        </div>
+        <div class="card-header msg_head" id="connecting" style="background: #c7c7c7;text-align: center;">Connecting.......</div>
+        
+        <div class="card-body msg_card_body">
+          <div class="d-flex justify-content-start mb-4">
+            <div class="img_cont_msg"> <img src="default.png" class="rounded-circle user_img_msg"> </div>
+            <div class="msg_cotainer"> Lorem Ipsum is simply dummy text <span class="msg_time">8:40 AM, Today</span> </div>
+          </div>
+          <div class="d-flex justify-content-end mb-4">
+            <div class="msg_cotainer_send"> Lorem Ipsum is simply dummy text  <span class="msg_time_send">8:55 AM, Today</span> </div>
+            <div class="img_cont_msg"> <img src="chatperson.png" class="rounded-circle user_img_msg"> </div>
+          </div>
+          <div class="d-flex justify-content-start mb-4">
+            <div class="img_cont_msg"> <img src="default.png" class="rounded-circle user_img_msg"> </div>
+            <div class="msg_cotainer"> Lorem Ipsum is simply dummy text   <span class="msg_time">9:00 AM, Today</span> </div>
+          </div>
+          <div class="d-flex justify-content-end mb-4">
+            <div class="msg_cotainer_send"> Lorem Ipsum is simply dummy text  <span class="msg_time_send">9:05 AM, Today</span> </div>
+            <div class="img_cont_msg"> <img src="chatperson.png" class="rounded-circle user_img_msg"> </div>
+          </div>
+          <div class="d-flex justify-content-start mb-4">
+            <div class="img_cont_msg"> <img src="default.png" class="rounded-circle user_img_msg"> </div>
+            <div class="msg_cotainer"> Lorem Ipsum is simply dummy text  <span class="msg_time">9:07 AM, Today</span> </div>
+          </div>
+          <div class="d-flex justify-content-end mb-4">
+            <div class="msg_cotainer_send"> Lorem Ipsum is simply dummy text  <span class="msg_time_send">9:10 AM, Today</span> </div>
+            <div class="img_cont_msg"> <img src="chatperson.png" class="rounded-circle user_img_msg"> </div>
+          </div>
+          <div class="d-flex justify-content-start mb-4">
+            <div class="img_cont_msg"> <img src="default.png" class="rounded-circle user_img_msg"> </div>
+            <div class="msg_cotainer"> Lorem Ipsum is simply dummy text  <span class="msg_time">9:12 AM, Today</span> </div>
+          </div>
+        </div>
+        <div class="card-footer">
+          <div class="input-group">
+            <div class="input-group-append"> </div>
+            <textarea name="" class="form-control type_msg" placeholder="Type your message..."></textarea>
+            <div class="input-group-append"> <span class="input-group-text send_btn"><i class="fas fa-location-arrow"></i></span> </div>
+          </div>
+			<br />
+		 <div class="input-group">
+            <div class="input-group-append"> </div>
+            <select class="custom-select">
+				<option>Option 1</option> 
+				<option>Option 2</option> 
+				<option>Option 3</option> 
+				<option>Option 4</option>
+			</select>
+            <div class="input-group-append"> <span class="input-group-text send_btn"><i class="fas fa-location-arrow"></i></span> </div>
+          </div>			
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.js"></script>
+<script>
+(function($){
+	//alert($('.card').height());
+        $(window).on("load",function(){
+			$('.card') .css({'height': (($(window).height()) - 0)+'px'});
+            $(".msg_card_body, .contacts_body").mCustomScrollbar();
+        });
+    })(jQuery);
+</script>
+</body>
+</html>

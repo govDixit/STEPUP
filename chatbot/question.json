@@ -1,0 +1,198 @@
+[
+
+{
+    "label" : "Hi, Greetings Human! This is surveybot, whats your name?",
+    "type" : "input",
+    "priority" : 1,
+    "status" : 1
+},
+{
+    "label" : "May I know your age?",
+    "type" : "input",
+    "priority" : 2,
+    "status" : 1
+},
+{
+    "label" : "What are your usual work/university start timings?",
+    "type" : "input",
+    "priority" : 3,
+    "status" : 1
+},
+{
+    "label" : "What are your usual work/university end timings?",
+    "type" : "input",
+    "priority" : 4,
+    "status" : 1
+},
+{
+    "label" : "Where do you spend your time after office/university on weekdays?",
+    "type" : "select",
+    "options" : [ 
+        "Go home directly ", 
+        "Go out"
+    ],
+    "priority" : 5,
+    "status" : 1
+},
+{
+    "label" : "Who is usually with you?",
+    "type" : "select",
+    "options" : [ 
+        "Family", 
+        "Friends",
+        "Colleagues",
+        "Alone"
+    ],
+    "priority" :6,
+    "status" : 1
+},
+{
+    "label" : "What all activities do you do?",
+    "type" : "select",
+    "options" : [ 
+        "Catch up on office work/studies ", 
+        "Partying ",
+        "Eat out/Drinking",
+        "Spending time watching TV",
+        "Spending time on netflix/prime/hotstar/sonyliv",
+        "Exercise",
+        "Grocery Shopping ",
+        "Commercial shopping "
+
+    ],
+    "priority" :7,
+    "status" : 1
+},
+{
+    "label" : "Where do you spend your time during weekends?",
+    "type" : "select",
+    "options" : [ 
+        "Stay at home ", 
+        "Go Out"
+    ],
+    "priority" :8,
+    "status" : 1
+},
+
+{
+    "label" : "Who is usually with you?",
+    "type" : "select",
+    "options" : [ 
+        "Family", 
+        "Friends",
+        "Colleagues",
+        "Alone"
+    ],
+    "priority" : 9,
+    "status" : 1
+},
+{
+    "label" : "What all activities do you do?",
+    "type" : "select",
+    "options" : [ 
+        "Catch up on office work/studies ", 
+        "Partying ",
+        "Eat out/Drinking",
+        "Spending time watching TV",
+        "Spending time on netflix/prime/hotstar/sonyliv",
+        "Exercise",
+        "Grocery Shopping ",
+        "Commercial shopping "
+    ],
+    "priority" : 10,
+    "status" : 1
+},
+
+{
+    "label" : "What are your favorite places for going out with friends?",
+    "type" : "input",
+    "priority" : 11,
+    "status" : 1
+},
+
+{
+    "label" : "Can you describe your style statement?",
+    "type" : "input",
+    "priority" : 12,
+    "status" : 1
+},
+{
+    "label" : "What is your friends or peers impression of you?",
+    "type" : "input",
+    "priority" : 13,
+    "status" : 1
+},
+{
+    "label" : "What is your family's impression of you?",
+    "type" : "input",
+    "priority" : 14,
+    "status" : 1
+},
+{
+    "label" : "What are your aspirations in life?",
+    "type" : "input",
+    "priority" : 15,
+    "status" : 1
+},
+{
+    "label" : "What are your biggest worries/anxieties?",
+    "type" : "input",
+    "priority" : 16,
+    "status" : 1
+},
+{
+    "label" : "When was the last time you tried a new cigarette brand?",
+    "type" : "input",
+    "priority" : 17,
+    "status" : 1
+},
+{
+    "label" : "Which brand did you try?",
+    "type" : "input",
+    "priority" : 18,
+    "status" : 1
+},
+{
+    "label" : "What motivates you to try new brands?",
+    "type" : "input",
+    "priority" : 19,
+    "status" : 1
+},
+{
+    "label" : "How do you come to know of the new brands?",
+    "type" : "select",
+    "options" : [ 
+        "Word of mouth", 
+        "Retailer",
+        "I see a pack on the shelf",
+        "Advertisement or poster inside the shop"
+    ],
+    "priority" : 20,
+    "status" : 1
+},
+{
+    "label" : "Which brand do you currently smoke?",
+    "type" : "input",
+    "priority" :21,
+    "status" : 1
+},
+{
+    "label" : "What makes you continue with this brand? What all do you like about it?",
+    "type" : "input",
+    "priority" : 22,
+    "status" : 1
+},
+{
+    "label" : "what is it that you would want additional or improved in this brand? Or anything that you don’t like?",
+    "type" : "input",
+    "priority" : 23,
+    "status" : 1
+},
+{
+    "label" : "What value does this brand give you?",
+    "type" : "input",
+    "priority" : 24,
+    "status" : 1
+}
+
+]
